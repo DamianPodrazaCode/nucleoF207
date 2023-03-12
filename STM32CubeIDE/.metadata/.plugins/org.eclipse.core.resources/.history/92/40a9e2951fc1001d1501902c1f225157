@@ -1,9 +1,11 @@
 #include "loop.h"
 #include <stdbool.h>
 
-//jeszcze należy zmienić ustawienia w CubeMX, Connectivity->FSMC->Data = 8 lub 16 bit
-//#define FSMC_LCD_8bit
-#define FSMC_LCD_16bit
+//jeszcze należy zmienić ustawienia w CubeMX,
+// * Connectivity->FSMC->Data = 8 lub 16 bit
+// * System Core->DMA->MEMTOMEM->Data width = Byte lub Half Word
+#define FSMC_LCD_8bit
+//#define FSMC_LCD_16bit
 
 #ifdef FSMC_LCD_8bit
 
@@ -29,24 +31,31 @@ uint16_t src[buffSize] = { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08,
 
 #endif
 
-void setup() {
+volatile int transferCompleteDetected = 1;
+static void TransferComplete(DMA_HandleTypeDef *DmaHandle) {
+	transferCompleteDetected = 1;
 }
+
+void setup() {
+	HAL_DMA_RegisterCallback(&hdma_memtomem_dma2_stream0, HAL_DMA_XFER_CPLT_CB_ID, TransferComplete);
+}
+
+bool fAddr = true;
+volatile uint32_t lcdAddr;
 
 void loop() {
-	for (int i = 0; i < buffSize; i++) {
-		LCD_CMD = src[i]; // DC = 0
-	}
-	__NOP();
-	__NOP();
-	__NOP();
-	__NOP();
+	if (transferCompleteDetected > 0) {
+		transferCompleteDetected = 0;
 
-	for (int i = 0; i < buffSize; i++) {
-		LCD_RAM = src[i]; // DC = 1
+		if (fAddr) {
+			lcdAddr = ADDR_CMD;
+			fAddr = false;
+		} else {
+			lcdAddr = ADDR_RAM;
+			fAddr = true;
+		}
+
+		HAL_DMA_Start_IT(&hdma_memtomem_dma2_stream0, (uint32_t) src, lcdAddr, buffSize);
+
 	}
-	__NOP();
-	__NOP();
-	__NOP();
-	__NOP();
 }
-

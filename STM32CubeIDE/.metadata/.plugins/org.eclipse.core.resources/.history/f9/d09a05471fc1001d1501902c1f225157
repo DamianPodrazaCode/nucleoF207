@@ -2,12 +2,12 @@
 #include <stdbool.h>
 
 //jeszcze należy zmienić ustawienia w CubeMX,
-// * Connectivity->FSMC->Data = 8 lub 16 bit
+// * Connectivity->FMC->Data = 8 lub 16 bit
 // * System Core->DMA->MEMTOMEM->Data width = Byte lub Half Word
-//#define FSMC_LCD_8bit
-#define FSMC_LCD_16bit
+#define FMC_LCD_8bit
+//#define FMC_LCD_16bit
 
-#ifdef FSMC_LCD_8bit
+#ifdef FMC_LCD_8bit
 
 #define ADDR_CMD (0x60000000) //LCD_RS=0
 #define ADDR_RAM (0x60010000) //LCD_RS=1, LINIA A16 przy 8bit
@@ -19,7 +19,7 @@ uint8_t src[buffSize] = { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 
 
 #endif
 
-#ifdef FSMC_LCD_16bit
+#ifdef FMC_LCD_16bit
 
 #define ADDR_CMD (0x60000000) //LCD_RS=0
 #define ADDR_RAM (0x60020000) //LCD_RS=1, LINIA A16 przy 16bit
