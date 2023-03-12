@@ -8,9 +8,7 @@
 // trzeba sprawdzić linie Ax oscyloskopem, bo niektóre mają jakieś dziwne przerwy, ale tylo przy przesyłaniu recznym, przy DMA jest ok,
 // wg lini ardesowej Ax trzeba ustawić w adresie odpowiedni bit, wtedy wpisując coś pod ten adres wysyłane są dane przez FSMC i zmienia się pin DC w stan wysoki
 // np. dla A10 bit 10 czyli 0x60000400, dla A25 to 0x62000000, itp
-// Dla 16-bit, przełączanie RS(DC) zależy od ustawienia odpowiedniej linii adresowej A0-A25 dla MPU 144 pin lub A16-A23 dla MPU 100 pin
-// wg lini ardesowej Ax trzeba ustawić w adresie odpowiedni bit+0x1(dlatego że jest to adres 16bit), wtedy wpisując coś pod ten adres wysyłane są dane przez FSMC i zmienia się pin DC w stan wysoki
-// np. dla A10 bit 10 czyli 0x60000400 + 0x00000100 czyli 0x60000500, dla A25 to 0x62000000 + 0x01000000 czyli 0x63000000, itp
+
 #define RAM 0x60010000 //LCD Register select = FSMC_A16
 
 #define buffSize 32
