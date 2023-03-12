@@ -1946,3 +1946,8 @@
 2023-03-12 20:17:14,238 [INFO] CADModel:114 - Register for checkConnection events
 2023-03-12 20:17:14,300 [INFO] OpenFileManager:328 - Restore cursor
 2023-03-12 20:17:17,110 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-03-12 21:34:25,128 [INFO] Activator:176 - 
+
+
+2023-03-12 21:34:25,128 [INFO] Activator:177 - !SESSION log4j initialized
+2023-03-12 21:34:27,754 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
