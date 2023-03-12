@@ -2,7 +2,7 @@
 
 
 #define CMD 0x60000000
-#define RAM 0x60010000 //LCD Register select = FSMC_A16
+#define RAM 0x60010000 //LCD Register select = A16
 #define LCD_CMD (*((__IO uint8_t *) CMD)) // LCD_RS_DC = 0
 #define LCD_RAM (*((__IO uint8_t *) RAM)) // LCD_RS_DC = 1
 
