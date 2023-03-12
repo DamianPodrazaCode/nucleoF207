@@ -1,5 +1,6 @@
 #include "loop.h"
 
+
 #define CMD 0x60000000
 #define RAM 0x60010000 //LCD Register select = FSMC_A16
 #define LCD_CMD (*((__IO uint8_t *) CMD)) // LCD_RS_DC = 0
@@ -13,19 +14,14 @@ void setup() {
 }
 
 void loop() {
-	TRIG_GPIO_Port->BSRR = TRIG_Pin; //PC0 = 0
-
-	for (int i = 0; i < buffSize; i++) {
-		LCD_CMD = src[i]; // RS = 0
-	}
-	for (int i = 0; i < buffSize; i++) {
-		LCD_RAM = src[i]; // RS = 1
-	}
-
-	TRIG_GPIO_Port->BSRR = TRIG_Pin << 16; //PC0 = 1
-	asm("NOP");
-	asm("NOP");
-	asm("NOP");
-	asm("NOP");
+		TRIG_GPIO_Port->BSRR = TRIG_Pin;
+		for (int i = 0; i < buffSize; i++) {
+			LCD_CMD = src[i]; // RS = 0
+		}
+		for (int i = 0; i < buffSize; i++) {
+			LCD_RAM = src[i]; // RS = 1
+		}
+		HAL_GPIO_TogglePin(led1_GPIO_Port, led1_Pin);
+		HAL_Delay(1);
 }
 

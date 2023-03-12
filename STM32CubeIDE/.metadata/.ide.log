@@ -677,3 +677,89 @@
 2023-03-12 18:44:11,322 [INFO] CADModel:114 - Register for checkConnection events
 2023-03-12 18:44:11,369 [INFO] OpenFileManager:328 - Restore cursor
 2023-03-12 18:44:21,976 [WARN] IpParametersView:150 - Warning: This peripheral hasn't parameters
+2023-03-12 19:00:44,361 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 496382744 Bytes (616562688)
+2023-03-12 19:00:44,415 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 521896728 Bytes (616562688)
+2023-03-12 19:00:44,785 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 283096928 Bytes (616562688)
+2023-03-12 19:00:44,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FSMC
+2023-03-12 19:00:44,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-12 19:00:44,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-12 19:00:44,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-12 19:00:44,925 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-12 19:00:44,925 [INFO] CodeGenerator:793 - code generatio: config db path: D:\050_STM32\CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-12 19:00:45,035 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\license.tmp_save
+2023-03-12 19:00:45,116 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\license.tmp
+2023-03-12 19:00:45,178 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\gpio.c_save
+2023-03-12 19:00:45,271 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\gpio.c
+2023-03-12 19:00:45,271 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\gpio.h_save
+2023-03-12 19:00:45,334 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\gpio.h
+2023-03-12 19:00:45,380 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\fsmc.c_save
+2023-03-12 19:00:45,459 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\fsmc.c
+2023-03-12 19:00:45,459 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\fsmc.h_save
+2023-03-12 19:00:45,522 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\fsmc.h
+2023-03-12 19:00:45,522 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_it.c_save
+2023-03-12 19:00:45,647 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_it.c
+2023-03-12 19:00:45,647 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_it.h_save
+2023-03-12 19:00:45,694 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_it.h
+2023-03-12 19:00:45,710 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_hal_msp.c_save
+2023-03-12 19:00:45,773 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_hal_msp.c
+2023-03-12 19:00:45,788 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\system.tmp_save
+2023-03-12 19:00:45,836 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\system.tmp
+2023-03-12 19:00:45,851 [INFO] CodeEngine:311 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_hal_conf.h_save
+2023-03-12 19:00:45,945 [INFO] CodeEngine:335 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_hal_conf.h
+2023-03-12 19:00:45,961 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\main.h_save
+2023-03-12 19:00:46,040 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\main.h
+2023-03-12 19:00:46,040 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\main.c_save
+2023-03-12 19:00:46,118 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\main.c
+2023-03-12 19:00:46,478 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-03-12 19:00:46,478 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-12 19:00:46,761 [INFO] ConfigFileManager:1483 - The Die is : DIE411
+2023-03-12 19:00:46,777 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-03-12 19:00:46,777 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-03-12 19:00:46,777 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-03-12 19:00:46,777 [INFO] ApiDbMcu:507 - Load IP Config File for LWIP
+2023-03-12 19:00:46,777 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-03-12 19:00:46,777 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-03-12 19:00:46,792 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-03-12 19:00:47,703 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1225mS.
+2023-03-12 19:00:47,703 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:00:47,703 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:01:07,789 [INFO] Gpio:273 - dependency for GPIO [FSMC, RCC, SYS]
+2023-03-12 19:01:18,596 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 277138944 Bytes (726663168)
+2023-03-12 19:01:18,643 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 256545200 Bytes (726663168)
+2023-03-12 19:01:18,957 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 325224880 Bytes (726663168)
+2023-03-12 19:01:19,114 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FSMC
+2023-03-12 19:01:19,114 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-12 19:01:19,114 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-12 19:01:19,114 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-12 19:01:19,114 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-12 19:01:19,114 [INFO] CodeGenerator:793 - code generatio: config db path: D:\050_STM32\CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-12 19:01:19,255 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\license.tmp_save
+2023-03-12 19:01:19,302 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\license.tmp
+2023-03-12 19:01:19,318 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\gpio.c_save
+2023-03-12 19:01:19,396 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\gpio.c
+2023-03-12 19:01:19,396 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\gpio.h_save
+2023-03-12 19:01:19,443 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\gpio.h
+2023-03-12 19:01:19,474 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\fsmc.c_save
+2023-03-12 19:01:19,537 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\fsmc.c
+2023-03-12 19:01:19,537 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\fsmc.h_save
+2023-03-12 19:01:19,584 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\fsmc.h
+2023-03-12 19:01:19,600 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_it.c_save
+2023-03-12 19:01:19,662 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_it.c
+2023-03-12 19:01:19,662 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_it.h_save
+2023-03-12 19:01:19,709 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_it.h
+2023-03-12 19:01:19,725 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_hal_msp.c_save
+2023-03-12 19:01:19,788 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\stm32f2xx_hal_msp.c
+2023-03-12 19:01:19,788 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\system.tmp_save
+2023-03-12 19:01:19,835 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\MXTmpFiles\system.tmp
+2023-03-12 19:01:19,835 [INFO] CodeEngine:311 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_hal_conf.h_save
+2023-03-12 19:01:19,898 [INFO] CodeEngine:335 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\stm32f2xx_hal_conf.h
+2023-03-12 19:01:19,929 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\main.h_save
+2023-03-12 19:01:19,976 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Inc\main.h
+2023-03-12 19:01:19,992 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\main.c_save
+2023-03-12 19:01:20,054 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8bit\Core\Src\main.c
+2023-03-12 19:01:20,431 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-03-12 19:01:20,447 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-12 19:01:20,604 [INFO] ConfigFileManager:1483 - The Die is : DIE411
+2023-03-12 19:01:21,482 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1035mS.
+2023-03-12 19:01:21,482 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:01:21,482 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

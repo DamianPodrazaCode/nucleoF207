@@ -21,7 +21,6 @@ void loop() {
 	for (int i = 0; i < buffSize; i++) {
 		LCD_RAM = src[i]; // RS = 1
 	}
-
 	TRIG_GPIO_Port->BSRR = TRIG_Pin << 16; //PC0 = 1
 	asm("NOP");
 	asm("NOP");
