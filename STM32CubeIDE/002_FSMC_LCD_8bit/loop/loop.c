@@ -13,7 +13,7 @@ void setup() {
 }
 
 void loop() {
-	TRIG_GPIO_Port->BSRR = TRIG_Pin; //PC0 = 0
+	TRIG_GPIO_Port->BSRR = TRIG_Pin << 16; //PC0 = 0
 
 	for (int i = 0; i < buffSize; i++) {
 		LCD_CMD = src[i]; // RS = 0
@@ -22,7 +22,7 @@ void loop() {
 		LCD_RAM = src[i]; // RS = 1
 	}
 
-	TRIG_GPIO_Port->BSRR = TRIG_Pin << 16; //PC0 = 1
+	TRIG_GPIO_Port->BSRR = TRIG_Pin; //PC0 = 1
 	asm("NOP");
 	asm("NOP");
 	asm("NOP");

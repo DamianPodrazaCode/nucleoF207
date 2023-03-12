@@ -6,3 +6,7 @@
 1678642257797	Delete resource '002_FSMC_LCD_8_16/002_Parallel_LCD_8_16_soft Debug.launch'
 1678642975388	Rename resource '002_FSMC_LCD_8_16'
 1678642997610	Delete resource '002_FSMC_LCD_8bit/002_FSMC_LCD_8bit Debug.launch'
+1678645503042	Rename resource 'nucleoF207'
+1678645513152	Delete resource '003_FSMC_LCD_16bit/nucleoF207 Debug.launch'
+1678646003905	Rename resource 'nucleoF207'
+1678646175017	Delete resource '004_FSMC_LCD_DMA_mem2mem/nucleoF207 Debug.launch'

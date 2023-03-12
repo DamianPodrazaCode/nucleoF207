@@ -2,7 +2,12 @@
 CAD.formats=
 CAD.pinconfig=
 CAD.provider=
+FSMC.AddressSetupTime1=15
+FSMC.BusTurnAroundDuration1=15
+FSMC.DataSetupTime1=255
+FSMC.IPParameters=AddressSetupTime1,DataSetupTime1,BusTurnAroundDuration1
 File.Version=6
+GPIO.groupedBy=Group By Peripherals
 KeepUserPlacement=false
 Mcu.CPN=STM32F207ZGT6
 Mcu.Family=STM32F2
