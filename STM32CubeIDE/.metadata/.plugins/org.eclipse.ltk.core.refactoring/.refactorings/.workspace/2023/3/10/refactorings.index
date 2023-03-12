@@ -13,3 +13,7 @@
 1678648053002	Rename resource '004_FSMC_LCD_DMA_mem2mem'
 1678648059208	Delete resource '004_FSMC_LCD_8bit_DMA_mem2mem/004_FSMC_LCD_DMA_mem2mem Debug.launch'
 1678656811955	Delete resource '003_FSMC_LCD_16bit'
+1678656867348	Rename resource '002_FSMC_LCD_8bit'
+1678656881803	Delete resource '002_FSMC_LCD_8_16/002_FSMC_LCD_8bit Debug.launch'
+1678657040899	Rename resource '004_FSMC_LCD_8bit_DMA_mem2mem'
+1678657051309	Delete resource '003_FSMC_LCD_8_16_DMA/004_FSMC_LCD_8bit_DMA_mem2mem Debug.launch'

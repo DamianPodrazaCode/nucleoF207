@@ -64,6 +64,7 @@ org.eclipse.launchbar.core.descriptorType.default\:002_FSMC_LCD_8_16\ Debug/acti
 org.eclipse.launchbar.core.descriptorType.default\:002_FSMC_LCD_8bit\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:002_Parallel_LCD_8_16_soft\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:003_FSMC_LCD_16bit\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:003_FSMC_LCD_8_16_DMA\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:004_FSMC_LCD_8bit_DMA_mem2mem\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:004_FSMC_LCD_DMA_mem2mem\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:New_configuration\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
