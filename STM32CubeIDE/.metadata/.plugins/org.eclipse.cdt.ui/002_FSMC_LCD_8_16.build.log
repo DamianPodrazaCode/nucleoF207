@@ -1,10 +1,18 @@
-22:36:20 **** Incremental Build of configuration Debug for project 002_FSMC_LCD_8_16 ****
+22:42:38 **** Incremental Build of configuration Debug for project 002_FSMC_LCD_8_16 ****
 make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc "../Core/Src/fsmc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/fsmc.d" -MT"Core/Src/fsmc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsmc.o"
+arm-none-eabi-gcc -o "002_FSMC_LCD_8_16.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_8_16\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="002_FSMC_LCD_8_16.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002_FSMC_LCD_8_16.elf
+ 
 arm-none-eabi-size   002_FSMC_LCD_8_16.elf 
+arm-none-eabi-objdump -h -S  002_FSMC_LCD_8_16.elf  > "002_FSMC_LCD_8_16.list"
    text	   data	    bss	    dec	    hex	filename
-   6824	     52	   1644	   8520	   2148	002_FSMC_LCD_8_16.elf
+   6712	     52	   1644	   8408	   20d8	002_FSMC_LCD_8_16.elf
 Finished building: default.size.stdout
  
+Finished building: 002_FSMC_LCD_8_16.list
+ 
 
-22:36:20 Build Finished. 0 errors, 0 warnings. (took 157ms)
+22:42:39 Build Finished. 0 errors, 0 warnings. (took 486ms)
 

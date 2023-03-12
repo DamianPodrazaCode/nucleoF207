@@ -1,9 +1,9 @@
 #include "loop.h"
 #include <stdbool.h>
 
-//jeszcze należy zmienić ustawienia w CubeMX, Connectivity->FSMC->Data = 8 lub 16 bit
-//#define FMC_LCD_8bit
-#define FMC_LCD_16bit
+//jeszcze należy zmienić ustawienia w CubeMX, Connectivity->FMC->Data = 8 lub 16 bit
+#define FMC_LCD_8bit
+//#define FMC_LCD_16bit
 
 #ifdef FMC_LCD_8bit
 
