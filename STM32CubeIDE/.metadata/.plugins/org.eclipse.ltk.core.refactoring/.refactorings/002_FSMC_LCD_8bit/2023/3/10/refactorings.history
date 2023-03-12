@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;002_FSMC_LCD_8bit/002_FSMC_LCD_8_16 Debug.launch&apos; to &apos;002_FSMC_LCD_8bit Debug.launch&apos;" description="Rename resource &apos;002_FSMC_LCD_8_16 Debug.launch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="002_FSMC_LCD_8_16 Debug.launch" name="002_FSMC_LCD_8bit Debug.launch" stamp="1678642988379" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+18:27:51 **** Incremental Build of configuration Debug for project 002_Parallel_LCD_8_16_soft ****
+make -j12 all 
+arm-none-eabi-size   002_Parallel_LCD_8_16_soft.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4812	     20	   1572	   6404	   1904	002_Parallel_LCD_8_16_soft.elf
+Finished building: default.size.stdout
+ 
+
+18:27:52 Build Finished. 0 errors, 0 warnings. (took 174ms)
+
