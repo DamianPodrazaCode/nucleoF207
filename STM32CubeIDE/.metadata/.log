@@ -392,3 +392,6 @@ java.io.FileNotFoundException: D:\__GitHub\nucleoF207\STM32CubeIDE\002_FSMC_LCD_
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-03-12 19:33:24.733
 !MESSAGE Indexed '004_FSMC_LCD_DMA_mem2mem' (22 sources, 82 headers) in 0.612 sec: 4,097 declarations; 15,541 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-12 20:07:34.211
+!MESSAGE Indexed '004_FSMC_LCD_8bit_DMA_mem2mem' (26 sources, 87 headers) in 0.864 sec: 4,487 declarations; 17,730 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)

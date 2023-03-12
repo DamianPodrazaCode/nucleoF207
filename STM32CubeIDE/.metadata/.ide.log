@@ -1329,3 +1329,412 @@
 2023-03-12 19:39:26,632 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1052mS.
 2023-03-12 19:39:26,632 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
 2023-03-12 19:39:26,632 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:52:08,886 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 529669304 Bytes (827326464)
+2023-03-12 19:52:08,912 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 555107968 Bytes (827326464)
+2023-03-12 19:52:09,257 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 591534904 Bytes (827326464)
+2023-03-12 19:52:09,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FSMC
+2023-03-12 19:52:09,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-12 19:52:09,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-12 19:52:09,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-12 19:52:09,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-03-12 19:52:09,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-12 19:52:09,429 [INFO] CodeGenerator:793 - code generatio: config db path: D:\050_STM32\CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Initvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Statevalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Statevalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Initvalue: null
+2023-03-12 19:52:09,429 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:52:09,429 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:52:09,429 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : Statevalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : Statevalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-03-12 19:52:09,445 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-03-12 19:52:09,603 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\license.tmp_save
+2023-03-12 19:52:09,665 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\license.tmp
+2023-03-12 19:52:09,687 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\gpio.c_save
+2023-03-12 19:52:09,744 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\gpio.c
+2023-03-12 19:52:09,744 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\gpio.h_save
+2023-03-12 19:52:09,791 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\gpio.h
+2023-03-12 19:52:09,822 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\dma.c_save
+2023-03-12 19:52:09,948 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\dma.c
+2023-03-12 19:52:09,948 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\dma.h_save
+2023-03-12 19:52:09,995 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\dma.h
+2023-03-12 19:52:09,995 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\fsmc.c_save
+2023-03-12 19:52:10,073 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\fsmc.c
+2023-03-12 19:52:10,073 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\fsmc.h_save
+2023-03-12 19:52:10,120 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\fsmc.h
+2023-03-12 19:52:10,137 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_it.c_save
+2023-03-12 19:52:10,246 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_it.c
+2023-03-12 19:52:10,261 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_it.h_save
+2023-03-12 19:52:10,309 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_it.h
+2023-03-12 19:52:10,324 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_hal_msp.c_save
+2023-03-12 19:52:10,387 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_hal_msp.c
+2023-03-12 19:52:10,388 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\system.tmp_save
+2023-03-12 19:52:10,434 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\system.tmp
+2023-03-12 19:52:10,434 [INFO] CodeEngine:311 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_hal_conf.h_save
+2023-03-12 19:52:10,497 [INFO] CodeEngine:335 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_hal_conf.h
+2023-03-12 19:52:10,528 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\main.h_save
+2023-03-12 19:52:10,589 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\main.h
+2023-03-12 19:52:10,591 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\main.c_save
+2023-03-12 19:52:10,669 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\main.c
+2023-03-12 19:52:10,983 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-03-12 19:52:10,983 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-12 19:52:11,234 [INFO] ConfigFileManager:1483 - The Die is : DIE411
+2023-03-12 19:52:12,066 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1083mS.
+2023-03-12 19:52:12,066 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:52:12,066 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:59:09,502 [INFO] Gpio:273 - dependency for GPIO [FSMC, RCC, SYS]
+2023-03-12 19:59:27,416 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 393775312 Bytes (859832320)
+2023-03-12 19:59:27,463 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 419463376 Bytes (859832320)
+2023-03-12 19:59:27,776 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 455641296 Bytes (859832320)
+2023-03-12 19:59:27,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FSMC
+2023-03-12 19:59:27,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-12 19:59:27,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-12 19:59:27,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-12 19:59:27,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-03-12 19:59:27,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-12 19:59:27,933 [INFO] CodeGenerator:793 - code generatio: config db path: D:\050_STM32\CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Initvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Statevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Statevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Initvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Statevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Statevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-03-12 19:59:27,933 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-03-12 19:59:28,090 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\license.tmp_save
+2023-03-12 19:59:28,152 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\license.tmp
+2023-03-12 19:59:28,152 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\gpio.c_save
+2023-03-12 19:59:28,215 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\gpio.c
+2023-03-12 19:59:28,215 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\gpio.h_save
+2023-03-12 19:59:28,262 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\gpio.h
+2023-03-12 19:59:28,308 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\dma.c_save
+2023-03-12 19:59:28,374 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\dma.c
+2023-03-12 19:59:28,374 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\dma.h_save
+2023-03-12 19:59:28,420 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\dma.h
+2023-03-12 19:59:28,435 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\fsmc.c_save
+2023-03-12 19:59:28,482 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\fsmc.c
+2023-03-12 19:59:28,498 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\fsmc.h_save
+2023-03-12 19:59:28,545 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\fsmc.h
+2023-03-12 19:59:28,545 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_it.c_save
+2023-03-12 19:59:28,609 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_it.c
+2023-03-12 19:59:28,609 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_it.h_save
+2023-03-12 19:59:28,655 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_it.h
+2023-03-12 19:59:28,670 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_hal_msp.c_save
+2023-03-12 19:59:28,718 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_hal_msp.c
+2023-03-12 19:59:28,733 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\system.tmp_save
+2023-03-12 19:59:28,765 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\system.tmp
+2023-03-12 19:59:28,780 [INFO] CodeEngine:311 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_hal_conf.h_save
+2023-03-12 19:59:28,843 [INFO] CodeEngine:335 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_hal_conf.h
+2023-03-12 19:59:28,859 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\main.h_save
+2023-03-12 19:59:28,922 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\main.h
+2023-03-12 19:59:28,922 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\main.c_save
+2023-03-12 19:59:29,000 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\main.c
+2023-03-12 19:59:29,392 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-03-12 19:59:29,392 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-12 19:59:29,565 [INFO] ConfigFileManager:1483 - The Die is : DIE411
+2023-03-12 19:59:30,350 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 958mS.
+2023-03-12 19:59:30,350 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 19:59:30,350 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 20:00:55,800 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 312507472 Bytes (859832320)
+2023-03-12 20:00:55,847 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 286649736 Bytes (859832320)
+2023-03-12 20:00:56,177 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 325447008 Bytes (859832320)
+2023-03-12 20:00:56,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FSMC
+2023-03-12 20:00:56,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-12 20:00:56,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-12 20:00:56,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-12 20:00:56,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-03-12 20:00:56,318 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-12 20:00:56,318 [INFO] CodeGenerator:793 - code generatio: config db path: D:\050_STM32\CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Initvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Statevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Statevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Initvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:321 - 	 sub Args: 
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Directionvalue: DMA_MEMORY_TO_MEMORY
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_DISABLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Statevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Statevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-03-12 20:00:56,318 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-03-12 20:00:56,466 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\license.tmp_save
+2023-03-12 20:00:56,522 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\license.tmp
+2023-03-12 20:00:56,537 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\gpio.c_save
+2023-03-12 20:00:56,600 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\gpio.c
+2023-03-12 20:00:56,600 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\gpio.h_save
+2023-03-12 20:00:56,647 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\gpio.h
+2023-03-12 20:00:56,679 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\dma.c_save
+2023-03-12 20:00:56,741 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\dma.c
+2023-03-12 20:00:56,741 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\dma.h_save
+2023-03-12 20:00:56,788 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\dma.h
+2023-03-12 20:00:56,804 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\fsmc.c_save
+2023-03-12 20:00:56,851 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\fsmc.c
+2023-03-12 20:00:56,851 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\fsmc.h_save
+2023-03-12 20:00:56,898 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\fsmc.h
+2023-03-12 20:00:56,913 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_it.c_save
+2023-03-12 20:00:56,976 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_it.c
+2023-03-12 20:00:56,976 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_it.h_save
+2023-03-12 20:00:57,023 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_it.h
+2023-03-12 20:00:57,039 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_hal_msp.c_save
+2023-03-12 20:00:57,103 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\stm32f2xx_hal_msp.c
+2023-03-12 20:00:57,103 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\system.tmp_save
+2023-03-12 20:00:57,149 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\MXTmpFiles\system.tmp
+2023-03-12 20:00:57,149 [INFO] CodeEngine:311 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_hal_conf.h_save
+2023-03-12 20:00:57,212 [INFO] CodeEngine:335 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\stm32f2xx_hal_conf.h
+2023-03-12 20:00:57,243 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\main.h_save
+2023-03-12 20:00:57,290 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Inc\main.h
+2023-03-12 20:00:57,290 [INFO] CodeEngine:255 - oldGeneratedFile, D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\main.c_save
+2023-03-12 20:00:57,353 [INFO] CodeEngine:279 - Generated code: D:\__GitHub\nucleoF207\STM32CubeIDE\004_FSMC_LCD_DMA_mem2mem\Core\Src\main.c
+2023-03-12 20:00:57,745 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-03-12 20:00:57,745 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-12 20:00:57,918 [INFO] ConfigFileManager:1483 - The Die is : DIE411
+2023-03-12 20:00:58,718 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 973mS.
+2023-03-12 20:00:58,718 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-12 20:00:58,733 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

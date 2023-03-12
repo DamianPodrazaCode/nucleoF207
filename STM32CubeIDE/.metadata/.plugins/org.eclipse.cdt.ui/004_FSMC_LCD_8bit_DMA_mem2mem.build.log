@@ -1,0 +1,10 @@
+20:07:53 **** Incremental Build of configuration Debug for project 004_FSMC_LCD_8bit_DMA_mem2mem ****
+make -j12 all 
+arm-none-eabi-size   004_FSMC_LCD_8bit_DMA_mem2mem.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9080	     56	   1744	  10880	   2a80	004_FSMC_LCD_8bit_DMA_mem2mem.elf
+Finished building: default.size.stdout
+ 
+
+20:07:53 Build Finished. 0 errors, 0 warnings. (took 157ms)
+
