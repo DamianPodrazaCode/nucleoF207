@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define FSMC_LCD_8bit
+//#define FSMC_LCD_16bit
+
 #include "stm32f2xx_hal.h"
 #include "irqHandlers/stm32_it.h"
 #include "led/ledConfig.h"
