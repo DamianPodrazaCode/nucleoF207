@@ -62,7 +62,6 @@ void HAL_SRAM_MspInit(SRAM_HandleTypeDef* sramHandle) {
     HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 #endif
 
-
 }
 
 void fsmcInit(void) {
