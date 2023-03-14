@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 void LED_Init();
 
 int main(void) {
