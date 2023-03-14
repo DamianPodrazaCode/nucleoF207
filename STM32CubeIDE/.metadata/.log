@@ -719,3 +719,43 @@ org.eclipse.core.runtime.CoreException: attempt to set description for a project
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-03-12 22:37:20.993
 !MESSAGE Indexed '003_FSMC_LCD_8_16_DMA' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 4 566 2023-03-12 22:50:45.114
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2023-03-13 22:53:04.553 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\__GitHub\nucleoF207\STM32CubeIDE
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-13 22:53:14.444
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-13 22:53:14.452
+!MESSAGE Log4j2 initialized with config file D:\__GitHub\nucleoF207\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-13 22:53:17.579
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-03-14 07:31:00.099 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  D:\TEMP_CODE\testh745\test\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\TEMP_CODE\testh745\test\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-03-14 07:31:05.680
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-03-14 07:31:05.680
+!MESSAGE Log4j2 initialized with config file D:\__GitHub\nucleoF207\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-03-14 07:31:09.059
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-14 07:31:13.577
+!MESSAGE Indexed 'test_CM4' (24 sources, 82 headers) in 3 sec: 6 842 declarations; 52 358 references; 6 unresolved inclusions; 70 syntax errors; 2 468 unresolved names (4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-14 07:31:16.218
+!MESSAGE Indexed 'test_CM7' (24 sources, 85 headers) in 1,27 sec: 7 838 declarations; 56 989 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,0031%)
