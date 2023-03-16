@@ -18,6 +18,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003_EXTI\ Debug/activeLaunchMod
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003_FMC_ILI9341\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003_FMC_ILI9341\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_FSMC_LCD_DMA_mem2mem\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_FSMC_LCD_ILI9341_16bit\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_SPI_ILI9341\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_SPI_ILI9341\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_UART-PC\ Debug/activeLaunchMode=run

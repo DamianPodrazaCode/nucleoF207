@@ -14,7 +14,7 @@ void setup() {
 
 	time = HAL_GetTick();
 	bench();
-	time = HAL_GetTick() - time;  //4091 ms
+	time = HAL_GetTick() - time;  //2486 ms
 }
 
 void loop() {
@@ -54,4 +54,5 @@ void bench() {
 		color = rand() % 0xffff;
 		lcdDrawPixel(x1, y1, color);
 	}
+	lcdClear(COLOR_BLACK);
 }
