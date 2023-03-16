@@ -91,6 +91,11 @@
 			<locationURI>PARENT-4-PROJECT_LOC/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.c</locationURI>
 		</link>
 		<link>
+			<name>Drivers/STM32F2xx_HAL_Driver/stm32f2xx_hal_sram.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_sram.c</locationURI>
+		</link>
+		<link>
 			<name>Drivers/STM32F2xx_HAL_Driver/stm32f2xx_hal_tim.c</name>
 			<type>1</type>
 			<locationURI>PARENT-4-PROJECT_LOC/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim.c</locationURI>
@@ -99,6 +104,11 @@
 			<name>Drivers/STM32F2xx_HAL_Driver/stm32f2xx_hal_tim_ex.c</name>
 			<type>1</type>
 			<locationURI>PARENT-4-PROJECT_LOC/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_tim_ex.c</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32F2xx_HAL_Driver/stm32f2xx_ll_fsmc.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_ll_fsmc.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
