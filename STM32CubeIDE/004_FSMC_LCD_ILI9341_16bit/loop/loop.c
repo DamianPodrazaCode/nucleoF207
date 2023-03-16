@@ -18,7 +18,12 @@ void setup() {
 }
 
 void loop() {
-	HAL_Delay(0);
+	//lcdInit(lcdOrientPortrait_0);
+	lcdClear(COLOR_BLUE);
+	time = HAL_GetTick();
+	bench();
+	time = HAL_GetTick() - time;  //2486 ms
+	HAL_Delay(99);
 }
 
 void bench() {
