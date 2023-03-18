@@ -1,10 +1,3 @@
-/*
- * gfx.h
- *
- *  Created on: Dec 31, 2022
- *      Author: ZoMbiE
- */
-
 #ifndef GFX_H_
 #define GFX_H_
 

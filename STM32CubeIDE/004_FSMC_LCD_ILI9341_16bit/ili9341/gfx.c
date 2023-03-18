@@ -1,10 +1,3 @@
-/*
- * gfx.c
- *
- *  Created on: Dec 31, 2022
- *      Author: ZoMbiE
- */
-
 #include "gfx.h"
 #include "main.h"
 #include "ili9341.h"
