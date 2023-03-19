@@ -17,7 +17,6 @@
 
 lcdPropertiesTypeDef lcdProp = { 0, 0, 0 };
 
-
 static inline void lcdSetWindow(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1) {
 	writeCMD(ILI9341_CASET);
 	writeDATA(x0 >> 8);

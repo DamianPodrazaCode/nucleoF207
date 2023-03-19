@@ -23,10 +23,11 @@ typedef struct {
 
 extern lcdPropertiesTypeDef lcdProp;
 
-void lcdInit(lcdOrient orientation);
-void lcdClear(uint16_t color);
-void lcdDrawPixel(uint16_t x, uint16_t y, uint16_t color);
-void lcdHLine(int16_t x1, int16_t x2, int16_t y, uint16_t color);
-void lcdVLine(int16_t x, int16_t y1, int16_t y2, uint16_t color);
+void ili9341Init(lcdOrient orientation);
+void clearScr(unsigned short color);
+void setPixel(int x, int y, unsigned short color);
+void hLine(int x1, int x2, int y, unsigned short color);
+void vLine(int x, int y1, int y2, unsigned short color);
+void copyBuffer(unsigned short *buffer, int x, int y, int heigh, int width);
 
 #endif /* ILI9341_H_ */
