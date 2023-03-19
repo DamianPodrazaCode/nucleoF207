@@ -31,6 +31,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>drvILI9341</name>
+			<type>2</type>
+			<location>D:/__GitHub/gfxLib/drvILI9341</location>
+		</link>
+		<link>
 			<name>gfxLib</name>
 			<type>2</type>
 			<location>D:/__GitHub/gfxLib/gfxLib</location>

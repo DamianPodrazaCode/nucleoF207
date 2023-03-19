@@ -1,14 +1,4 @@
-/*
- * hardwareMCU.c
- *
- *  Created on: Dec 31, 2022
- *      Author: ZoMbiE
- */
-#include "../ili9341/hardwareMCU.h"
-
-#include "fsmc.h"
-#include "dma.h"
-#include <stdbool.h>
+#include "ili9341Port.h"
 
 #define ADDR_CMD (0x60000000) //LCD_RS=0
 #define ADDR_RAM (0x60020000) //LCD_RS=1, LINIA A16 przy 16bit
@@ -37,4 +27,24 @@ bool writeBUFFER(uint32_t buffer, uint32_t size) {
 		return true;
 	};
 	return false;
+}
+
+void lcdBlOn() {
+	HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);
+}
+
+void lcdBlOff() {
+	HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_RESET);
+}
+
+void lcdRstHI() {
+	HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_SET);
+}
+
+void lcdRstLOW() {
+	HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_RESET);
+}
+
+void lcdDelayMs(uint32_t ms) {
+	HAL_Delay(ms);
 }

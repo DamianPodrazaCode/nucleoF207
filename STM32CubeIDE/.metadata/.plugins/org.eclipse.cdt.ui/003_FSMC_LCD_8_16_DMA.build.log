@@ -1,4 +1,4 @@
-18:56:40 **** Incremental Build of configuration Debug for project 003_FSMC_LCD_8_16_DMA ****
+15:32:42 **** Incremental Build of configuration Debug for project 003_FSMC_LCD_8_16_DMA ****
 make -j12 all 
 arm-none-eabi-size   003_FSMC_LCD_8_16_DMA.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   003_FSMC_LCD_8_16_DMA.elf
 Finished building: default.size.stdout
  
 
-18:56:40 Build Finished. 0 errors, 0 warnings. (took 172ms)
+15:32:42 Build Finished. 0 errors, 0 warnings. (took 156ms)
 

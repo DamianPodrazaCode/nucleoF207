@@ -2,6 +2,10 @@
 #define LOOP_H_
 
 #include "main.h"
+#include <stdbool.h>
+#include <stdlib.h>
+
+#include "ili9341.h"
 
 void setup();
 void loop();
