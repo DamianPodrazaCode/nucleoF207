@@ -6,6 +6,7 @@
 #include <stdlib.h>
 
 #include "ili9341.h"
+#include "gfx.h"
 
 void setup();
 void loop();
