@@ -23,7 +23,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_SPI_ILI9341\ Debug/activeLa
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_SPI_ILI9341\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_UART-PC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_UART-PC\ Debug/activeLaunchTarget=null\:---
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:005_FSMC_LCD_ILI9341_16bit_GFX\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:005_FSMC_LCD_ILI9341_16bit_GFX\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:005_UART-Rx-Tx-IT-DMA\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:005_UART-Rx-Tx-IT-DMA\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:005_UART-Tx-DMA\ Debug/activeLaunchMode=run

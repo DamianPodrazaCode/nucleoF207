@@ -1,27 +1,56 @@
 #include "loop.h"
 
 void bench();
+void bench2();
 
 __IO uint32_t time = 0;
 
 void setup() {
-	ili9341_init(lcdOrientLandscape_90);
+	drv_init(lcdOrientLandscape_90);
 	clearScr(COLOR_BLACK);
 	gfx_init(lcdProp.width, lcdProp.height);
 
 //	gfx2d_line(0, 0, 100, 200, COLOR_WHITE);
+//	gfx2d_triangle(100, 10, 200, 100, 10, 160, COLOR_LIGHTGREY);
+//	gfx2d_fillTriangle(100, 10, 200, 100, 10, 160, COLOR_LIGHTGREY);
 
 	time = HAL_GetTick();
-	bench();
-	time = HAL_GetTick() - time;  //2227 ms
+	bench2();
+	time = HAL_GetTick() - time;
+}
+
+void bench2() {
+
+//	gfx2d_line(2, 2, 200, 20, COLOR_CYAN);
+
+//	for (int x = 0; x < lcdProp.width/2; x++)
+//		gfx2d_line(x, 0, lcdProp.width / 2, lcdProp.height / 2, COLOR_CYAN);
+
+	for (int x = 0; x < lcdProp.width; x++) {
+		gfx2d_line(x, 0, lcdProp.width / 2, lcdProp.height / 2, COLOR_CYAN);
+//		HAL_Delay(9);
+	}
+	for (int y = 0; y < lcdProp.height; y++) {
+		gfx2d_line(lcdProp.width, y, lcdProp.width / 2, lcdProp.height / 2, COLOR_BLUE);
+//		HAL_Delay(9);
+	}
+	for (int x = lcdProp.width; x >= 0; x--) {
+		gfx2d_line(x, lcdProp.height, lcdProp.width / 2, lcdProp.height / 2, COLOR_GREEN);
+//		HAL_Delay(9);
+	}
+	for (int y = lcdProp.height; y >= 0; y--) {
+		gfx2d_line(0, y, lcdProp.width / 2, lcdProp.height / 2, COLOR_MAGENTA);
+//		HAL_Delay(9);
+	}
+
 }
 
 void loop() {
-	clearScr(COLOR_BLUE);
-	time = HAL_GetTick();
-	bench();
-	time = HAL_GetTick() - time;
-	HAL_Delay(99);
+//	clearScr(COLOR_BLUE);
+//	time = HAL_GetTick();
+//	bench();
+//	time = HAL_GetTick() - time;
+//	HAL_Delay(99);
 }
 
 void bench() {
