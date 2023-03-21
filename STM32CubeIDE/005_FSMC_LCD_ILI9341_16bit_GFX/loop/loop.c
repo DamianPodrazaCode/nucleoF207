@@ -2,6 +2,7 @@
 
 void bench();
 void bench2();
+void bench3();
 
 __IO uint32_t time = 0;
 
@@ -15,6 +16,7 @@ void setup() {
 //	gfx2d_fillTriangle(100, 10, 200, 100, 10, 160, COLOR_LIGHTGREY);
 
 	time = HAL_GetTick();
+//	bench();
 	bench2();
 
 // 23
@@ -26,6 +28,10 @@ void setup() {
 //			drawPixel(x, y, COLOR_BLUE);
 //	}
 	time = HAL_GetTick() - time;
+}
+
+void bench3() {
+
 }
 
 void bench2() {
@@ -78,7 +84,7 @@ void bench() {
 		y1 = rand() % lcdProp.height;
 		y2 = rand() % lcdProp.height;
 		color = rand() % 0xffff;
-		drawHLine(x1, y1, y2, color);
+		drawVLine(x1, y1, y2, color);
 	}
 	for (int i = 0; i < iter; i++) {
 		x1 = rand() % lcdProp.width;
