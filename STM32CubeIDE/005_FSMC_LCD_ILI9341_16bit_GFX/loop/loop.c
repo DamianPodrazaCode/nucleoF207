@@ -16,6 +16,15 @@ void setup() {
 
 	time = HAL_GetTick();
 	bench2();
+
+// 23
+// clearScr(COLOR_BLACK);
+
+// 267
+//	for (int x = 0; x < 320; x++) {
+//		for (int y = 0; y < 240; y++)
+//			drawPixel(x, y, COLOR_BLUE);
+//	}
 	time = HAL_GetTick() - time;
 }
 
