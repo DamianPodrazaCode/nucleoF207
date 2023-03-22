@@ -17,8 +17,8 @@ void setup() {
 
 	time = HAL_GetTick();
 //	bench();
-	bench2();
-//	bench3();
+//	bench2();
+	bench3();
 
 // 23
 // clearScr(COLOR_BLACK);
@@ -46,18 +46,18 @@ void bench2() {
 		gfx2d_line(x, 0, lcdProp.width / 2, lcdProp.height / 2, COLOR_CYAN);
 //		HAL_Delay(9);
 	}
-//	for (int y = 0; y < lcdProp.height; y++) {
-//		gfx2d_line(lcdProp.width, y, lcdProp.width / 2, lcdProp.height / 2, COLOR_BLUE);
+	for (int y = 0; y < lcdProp.height; y++) {
+		gfx2d_line(lcdProp.width, y, lcdProp.width / 2, lcdProp.height / 2, COLOR_BLUE);
 //		HAL_Delay(9);
-//	}
-//	for (int x = lcdProp.width; x >= 0; x--) {
-//		gfx2d_line(x, lcdProp.height, lcdProp.width / 2, lcdProp.height / 2, COLOR_GREEN);
+	}
+	for (int x = lcdProp.width; x >= 0; x--) {
+		gfx2d_line(x, lcdProp.height, lcdProp.width / 2, lcdProp.height / 2, COLOR_GREEN);
 //		HAL_Delay(9);
-//	}
-//	for (int y = lcdProp.height; y >= 0; y--) {
-//		gfx2d_line(0, y, lcdProp.width / 2, lcdProp.height / 2, COLOR_MAGENTA);
+	}
+	for (int y = lcdProp.height; y >= 0; y--) {
+		gfx2d_line(0, y, lcdProp.width / 2, lcdProp.height / 2, COLOR_MAGENTA);
 //		HAL_Delay(9);
-//	}
+	}
 
 }
 

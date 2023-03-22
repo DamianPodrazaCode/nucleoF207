@@ -11039,3 +11039,2296 @@ Finished building: default.size.stdout
  
 Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
  
+16:47:41 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9776	     20	   1764	  11560	   2d28	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+16:48:20 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9844	     20	   1764	  11628	   2d6c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+16:48:43 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9844	     20	   1764	  11628	   2d6c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+16:49:16 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  10008	     20	   1764	  11792	   2e10	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+16:49:19 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10008	     20	   1764	  11792	   2e10	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+16:52:00 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9908	     20	   1764	  11692	   2dac	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+17:06:59 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:146:30: error: 'COLOR_DARKCYAN' undeclared (first use in this function)
+  146 |   gfx2d_line(x0, y0, x1, y1, COLOR_DARKCYAN);
+      |                              ^~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:146:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:07:11 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:146:30: error: 'COLOR_BLUE' undeclared (first use in this function)
+  146 |   gfx2d_line(x0, y0, x1, y1, COLOR_BLUE);
+      |                              ^~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:146:30: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:30: error: 'COLOR_DARKCYAN' undeclared (first use in this function)
+  147 |   gfx2d_line(x0, y0, x3, y3, COLOR_DARKCYAN);
+      |                              ^~~~~~~~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:07:57 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  10000	     20	   1764	  11784	   2e08	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+17:08:01 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10000	     20	   1764	  11784	   2e08	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+17:08:52 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  10052	     20	   1764	  11836	   2e3c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+17:11:12 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11400	     20	   1764	  13184	   3380	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+17:11:15 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11400	     20	   1764	  13184	   3380	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:37:12 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11396	     20	   1764	  13180	   337c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:06:47 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'init' defined but not used [-Wunused-function]
+  127 | static void init(int *e, int *kx, int *ky, int *dx, int *dy) {
+      |             ^~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11400	     20	   1764	  13184	   3380	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:06:53 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'init' defined but not used [-Wunused-function]
+  127 | static void init(int *e, int *kx, int *ky, int *dx, int *dy) {
+      |             ^~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11400	     20	   1764	  13184	   3380	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:07:21 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'init':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:129:9: error: 'x' undeclared (first use in this function); did you mean 'dx'?
+  129 |  *kx = (x <= x1) ? 1 : -1;
+      |         ^
+      |         dx
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:129:9: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:129:14: error: 'x1' undeclared (first use in this function); did you mean 'j1'?
+  129 |  *kx = (x <= x1) ? 1 : -1;
+      |              ^~
+      |              j1
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:130:9: error: 'y' undeclared (first use in this function); did you mean 'dy'?
+  130 |  *ky = (y <= y1) ? 1 : -1;
+      |         ^
+      |         dy
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'init' defined but not used [-Wunused-function]
+  127 | static void init(int *e, int *kx, int *ky, int *dx, int *dy) {
+      |             ^~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:08:06 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'init' defined but not used [-Wunused-function]
+  127 | static void init(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11400	     20	   1764	  13184	   3380	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:10:43 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:6: error: 'dx' undeclared (first use in this function)
+  136 |  if (dx >= dy) {
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:6: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:12: error: 'dy' undeclared (first use in this function)
+  136 |  if (dx >= dy) {
+      |            ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:137:3: error: 'e' undeclared (first use in this function)
+  137 |   e = dx >> 1;
+      |   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:14: error: 'x' undeclared (first use in this function)
+  139 |    drawPixel(x, y, color);
+      |              ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:17: error: 'y' undeclared (first use in this function); did you mean 'yn'?
+  139 |    drawPixel(x, y, color);
+      |                 ^
+      |                 yn
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:20: error: 'color' undeclared (first use in this function)
+  139 |    drawPixel(x, y, color);
+      |                    ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:12: error: 'kx' undeclared (first use in this function)
+  140 |    x = x + kx;
+      |            ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:13: error: 'ky' undeclared (first use in this function)
+  143 |     y = y + ky;
+      |             ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep() {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:11:21 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:137:3: error: 'e' undeclared (first use in this function)
+  137 |   e = dx >> 1;
+      |   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:137:3: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:137:10: error: invalid operands to binary >> (have 'int *' and 'int')
+  137 |   e = dx >> 1;
+      |          ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:13: error: 'x' undeclared (first use in this function); did you mean 'dx'?
+  139 |   drawPixel(x, y, color);
+      |             ^
+      |             dx
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:16: error: 'y' undeclared (first use in this function); did you mean 'dy'?
+  139 |   drawPixel(x, y, color);
+      |                ^
+      |                dy
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:19: error: 'color' undeclared (first use in this function)
+  139 |   drawPixel(x, y, color);
+      |                   ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:11: error: 'kx' undeclared (first use in this function); did you mean 'dx'?
+  140 |   x = x + kx;
+      |           ^~
+      |           dx
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:12: error: 'ky' undeclared (first use in this function); did you mean 'dy'?
+  143 |    y = y + ky;
+      |            ^~
+      |            dy
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:10: error: invalid operands to binary >> (have 'int *' and 'int')
+  148 |   e = dy >> 1;
+      |          ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep(int *dx, int *dy) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:14:52 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:13: error: 'x' undeclared (first use in this function)
+  139 |   drawPixel(x, y, color);
+      |             ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:13: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:16: error: 'y' undeclared (first use in this function)
+  139 |   drawPixel(x, y, color);
+      |                ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:19: error: 'color' undeclared (first use in this function)
+  139 |   drawPixel(x, y, color);
+      |                   ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:11: error: 'kx' undeclared (first use in this function); did you mean 'dx'?
+  140 |   x = x + kx;
+      |           ^~
+      |           dx
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  141 |   e = e - dy;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:12: error: 'ky' undeclared (first use in this function); did you mean 'dy'?
+  143 |    y = y + ky;
+      |            ^~
+      |            dy
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:144:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  144 |    e = e + dx;
+      |          ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:10: error: invalid operands to binary >> (have 'int *' and 'int')
+  148 |   e = dy >> 1;
+      |          ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  152 |   e = e - dx;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:155:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  155 |    e = e + dy;
+      |          ^
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep(int *dx, int *dy, int *e) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:19:12 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  141 |   e = e - dy;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  143 |    y = y + ky;
+      |          ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:144:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  144 |    e = e + dx;
+      |          ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:10: error: invalid operands to binary >> (have 'int *' and 'int')
+  148 |   e = dy >> 1;
+      |          ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:19: error: 'color' undeclared (first use in this function)
+  150 |   drawPixel(x, y, color);
+      |                   ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:19: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:13: warning: passing argument 1 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+  150 |   drawPixel(x, y, color);
+      |             ^
+      |             |
+      |             int *
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:35:31: note: expected 'int32_t' {aka 'long int'} but argument is of type 'int *'
+   35 | __weak void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                       ~~~~~~~~^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:16: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+  150 |   drawPixel(x, y, color);
+      |                ^
+      |                |
+      |                int *
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:35:42: note: expected 'int32_t' {aka 'long int'} but argument is of type 'int *'
+   35 | __weak void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                                  ~~~~~~~~^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:9: error: invalid operands to binary + (have 'int *' and 'int *')
+  151 |   y = y + ky;
+      |         ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  152 |   e = e - dx;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:154:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  154 |    x = x + kx;
+      |          ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:155:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  155 |    e = e + dy;
+      |          ^
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:19:45 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:10: error: invalid operands to binary >> (have 'int *' and 'int')
+  148 |   e = dy >> 1;
+      |          ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:19: error: 'color' undeclared (first use in this function)
+  150 |   drawPixel(x, y, color);
+      |                   ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:19: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:13: warning: passing argument 1 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+  150 |   drawPixel(x, y, color);
+      |             ^
+      |             |
+      |             int *
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:35:31: note: expected 'int32_t' {aka 'long int'} but argument is of type 'int *'
+   35 | __weak void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                       ~~~~~~~~^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:150:16: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+  150 |   drawPixel(x, y, color);
+      |                ^
+      |                |
+      |                int *
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:35:42: note: expected 'int32_t' {aka 'long int'} but argument is of type 'int *'
+   35 | __weak void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                                  ~~~~~~~~^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:9: error: invalid operands to binary + (have 'int *' and 'int *')
+  151 |   y = y + ky;
+      |         ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  152 |   e = e - dx;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:154:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  154 |    x = x + kx;
+      |          ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:155:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  155 |    e = e + dy;
+      |          ^
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:22:54 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:7: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+  140 |   *xk = x;
+      |       ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:7: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+  141 |   *yk = y;
+      |       ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:19: error: 'color' undeclared (first use in this function)
+  152 |   drawPixel(x, y, color);
+      |                   ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:19: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:13: warning: passing argument 1 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+  152 |   drawPixel(x, y, color);
+      |             ^
+      |             |
+      |             int *
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:35:31: note: expected 'int32_t' {aka 'long int'} but argument is of type 'int *'
+   35 | __weak void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                       ~~~~~~~~^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:152:16: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+  152 |   drawPixel(x, y, color);
+      |                ^
+      |                |
+      |                int *
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:35:42: note: expected 'int32_t' {aka 'long int'} but argument is of type 'int *'
+   35 | __weak void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                                  ~~~~~~~~^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:9: error: invalid operands to binary + (have 'int *' and 'int *')
+  153 |   y = y + ky;
+      |         ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:154:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  154 |   e = e - dx;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:156:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  156 |    x = x + kx;
+      |          ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:10: error: invalid operands to binary + (have 'int *' and 'int *')
+  157 |    e = e + dy;
+      |          ^
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y, int *xk, int *yk) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:23:55 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:135:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  135 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y, int *xk, int *yk) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *e, int *kx, int *ky, int *dx, int *dy, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11400	     20	   1764	  13184	   3380	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:05:54 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineInit':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:128:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  128 |  dx = ABS(x1 - x0);
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:129:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  129 |  sx = (x0 < x1) ? 1 : -1;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:130:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  130 |  dy = -ABS(y1 - y0);
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:131:5: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  131 |  sy = (y0 < y1) ? 1 : -1;
+      |     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:132:13: error: invalid operands to binary + (have 'int *' and 'int *')
+  132 |  error = dx + dy;
+      |             ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:179:7: warning: unused variable 'y3' [-Wunused-variable]
+  179 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:7: warning: unused variable 'x3' [-Wunused-variable]
+  178 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y, int *xk, int *yk) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:06:09 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineInit':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:132:14: error: invalid operands to binary + (have 'int *' and 'int *')
+  132 |  *error = dx + dy;
+      |              ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:179:7: warning: unused variable 'y3' [-Wunused-variable]
+  179 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:7: warning: unused variable 'x3' [-Wunused-variable]
+  178 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y, int *xk, int *yk) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int x0, int y0, int x1, int y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:06:45 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:179:7: warning: unused variable 'y3' [-Wunused-variable]
+  179 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:7: warning: unused variable 'x3' [-Wunused-variable]
+  178 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *e, int *kx, int *ky, int *dx, int *dy, int *x, int *y, int *xk, int *yk) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |             ^~~~~~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11096	     20	   1764	  12880	   3250	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:09:42 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:15: error: invalid operands to binary << (have 'int *' and 'int')
+  140 |    e2 = error << 1;
+      |               ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:19: error: invalid operands to binary + (have 'int *' and 'int *')
+  142 |     error = error + dy;
+      |                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:13: error: invalid operands to binary + (have 'int *' and 'int *')
+  143 |     x0 = x0 + sx;
+      |             ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:146:19: error: invalid operands to binary + (have 'int *' and 'int *')
+  146 |     error = error + dx;
+      |                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: error: invalid operands to binary + (have 'int *' and 'int *')
+  147 |     y0 = y0 + sy;
+      |             ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:170:7: warning: unused variable 'y3' [-Wunused-variable]
+  170 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:169:7: warning: unused variable 'x3' [-Wunused-variable]
+  169 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:385:1: error: expected declaration or statement at end of input
+  385 | }
+      | ^
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:384:6: warning: 'gfx2d_fillEllipse' defined but not used [-Wunused-function]
+  384 | void gfx2d_fillEllipse(int32_t Xpos, int32_t Ypos, uint32_t XRadius, uint32_t YRadius, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:382:6: warning: 'gfx2d_fillPolygon' defined but not used [-Wunused-function]
+  382 | void gfx2d_fillPolygon(gfxPoint *points, uint32_t pointCount, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:380:6: warning: 'gfx2d_fillCircle' defined but not used [-Wunused-function]
+  380 | void gfx2d_fillCircle(int32_t x, int32_t y, uint32_t r, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:378:6: warning: 'gfx2d_fillRoundRect' defined but not used [-Wunused-function]
+  378 | void gfx2d_fillRoundRect(int32_t x, int32_t y, int32_t width, int32_t height, uint32_t r, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:376:6: warning: 'gfx2d_fillRect' defined but not used [-Wunused-function]
+  376 | void gfx2d_fillRect(int32_t x, int32_t y, int32_t width, int32_t height, uint16_t color) {
+      |      ^~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x, int *y) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:6: warning: 'gfx2d_fillTriangle' defined but not used [-Wunused-function]
+  151 | void gfx2d_fillTriangle(int32_t x0, int32_t y0, int32_t x1, int32_t y1, int32_t x2, int32_t y2, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:11:02 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:170:7: warning: unused variable 'y3' [-Wunused-variable]
+  170 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:169:7: warning: unused variable 'x3' [-Wunused-variable]
+  169 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:385:1: error: expected declaration or statement at end of input
+  385 | }
+      | ^
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:384:6: warning: 'gfx2d_fillEllipse' defined but not used [-Wunused-function]
+  384 | void gfx2d_fillEllipse(int32_t Xpos, int32_t Ypos, uint32_t XRadius, uint32_t YRadius, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:382:6: warning: 'gfx2d_fillPolygon' defined but not used [-Wunused-function]
+  382 | void gfx2d_fillPolygon(gfxPoint *points, uint32_t pointCount, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:380:6: warning: 'gfx2d_fillCircle' defined but not used [-Wunused-function]
+  380 | void gfx2d_fillCircle(int32_t x, int32_t y, uint32_t r, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:378:6: warning: 'gfx2d_fillRoundRect' defined but not used [-Wunused-function]
+  378 | void gfx2d_fillRoundRect(int32_t x, int32_t y, int32_t width, int32_t height, uint32_t r, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:376:6: warning: 'gfx2d_fillRect' defined but not used [-Wunused-function]
+  376 | void gfx2d_fillRect(int32_t x, int32_t y, int32_t width, int32_t height, uint16_t color) {
+      |      ^~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x, int *y) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:6: warning: 'gfx2d_fillTriangle' defined but not used [-Wunused-function]
+  151 | void gfx2d_fillTriangle(int32_t x0, int32_t y0, int32_t x1, int32_t y1, int32_t x2, int32_t y2, uint16_t color) {
+      |      ^~~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:13: warning: 'lineInit' defined but not used [-Wunused-function]
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |             ^~~~~~~~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:13:32 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:45: warning: passing argument 7 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                             ^~~
+      |                                             |
+      |                                             int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:84: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                               ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:50: warning: passing argument 8 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                                  ^~~
+      |                                                  |
+      |                                                  int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:93: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                                        ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:55: warning: passing argument 9 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                                       ^~~
+      |                                                       |
+      |                                                       int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:102: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                                                 ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:60: warning: passing argument 10 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                                            ^~~
+      |                                                            |
+      |                                                            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:111: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                                                          ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:37: warning: unused variable 'y' [-Wunused-variable]
+  174 |   int dx, sx, dy, sy, error, e2, x, y;
+      |                                     ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:34: warning: unused variable 'x' [-Wunused-variable]
+  174 |   int dx, sx, dy, sy, error, e2, x, y;
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:7: warning: unused variable 'y3' [-Wunused-variable]
+  172 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:7: warning: unused variable 'x3' [-Wunused-variable]
+  171 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x, int *y) {
+      |             ^~~~~~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11312	     20	   1764	  13096	   3328	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:14:02 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:12: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:27: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                      ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:17: warning: passing argument 2 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                 ^~~
+      |                 |
+      |                 int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:36: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                               ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:22: warning: passing argument 3 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                      ^~~
+      |                      |
+      |                      int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:45: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                        ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:27: warning: passing argument 4 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                           ^~~
+      |                           |
+      |                           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:54: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                 ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:32: warning: passing argument 5 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                ^~~~~~
+      |                                |
+      |                                int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:63: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                          ~~~~~^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:40: warning: passing argument 6 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                        ^~~
+      |                                        |
+      |                                        int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:75: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                      ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:45: warning: passing argument 7 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                             ^~~
+      |                                             |
+      |                                             int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:84: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                               ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:50: warning: passing argument 8 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                                  ^~~
+      |                                                  |
+      |                                                  int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:93: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                                        ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:55: warning: passing argument 9 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                                       ^~~
+      |                                                       |
+      |                                                       int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:102: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                                                 ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:176:60: warning: passing argument 10 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  176 |   lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |                                                            ^~~
+      |                                                            |
+      |                                                            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:127:111: note: expected 'int *' but argument is of type 'int32_t *' {aka 'long int *'}
+  127 | static void lineInit(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x1, int *y1) {
+      |                                                                                                          ~~~~~^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:41: warning: unused variable 'y' [-Wunused-variable]
+  174 |   int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                                         ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:38: warning: unused variable 'x' [-Wunused-variable]
+  174 |   int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                                      ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:7: warning: unused variable 'y3' [-Wunused-variable]
+  172 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:7: warning: unused variable 'x3' [-Wunused-variable]
+  171 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int *dx, int *sx, int *dy, int *sy, int *error, int *e2, int *x0, int *y0, int *x, int *y) {
+      |             ^~~~~~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11312	     20	   1764	  13096	   3328	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:15:22 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:41: warning: unused variable 'y' [-Wunused-variable]
+  174 |   int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                                         ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:38: warning: unused variable 'x' [-Wunused-variable]
+  174 |   int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                                      ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:7: warning: unused variable 'y3' [-Wunused-variable]
+  172 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:7: warning: unused variable 'x3' [-Wunused-variable]
+  171 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+At top level:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:136:13: warning: 'lineStep' defined but not used [-Wunused-function]
+  136 | static void lineStep(int32_t *dx, int32_t *sx, int32_t *dy, int32_t *sy, int32_t *error, int32_t *e2, int32_t *x0, int32_t *y0, int32_t *x, int32_t *y) {
+      |             ^~~~~~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11312	     20	   1764	  13096	   3328	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:21:58 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:7: warning: unused variable 'y3' [-Wunused-variable]
+  172 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:7: warning: unused variable 'x3' [-Wunused-variable]
+  171 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11852	     20	   1764	  13636	   3544	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:25:07 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:7: warning: unused variable 'y3' [-Wunused-variable]
+  174 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:173:7: warning: unused variable 'x3' [-Wunused-variable]
+  173 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11584	     20	   1764	  13368	   3438	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:27:17 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:7: warning: unused variable 'y3' [-Wunused-variable]
+  174 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:173:7: warning: unused variable 'x3' [-Wunused-variable]
+  173 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11584	     20	   1764	  13368	   3438	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:27:50 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:174:7: warning: unused variable 'y3' [-Wunused-variable]
+  174 |   int y3 = y1;
+      |       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:173:7: warning: unused variable 'x3' [-Wunused-variable]
+  173 |   int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |       ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11584	     20	   1764	  13368	   3438	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:28:19 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:6: warning: unused variable 'y3' [-Wunused-variable]
+  172 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:6: warning: unused variable 'x3' [-Wunused-variable]
+  171 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11768	     20	   1764	  13552	   34f0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:28:21 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11768	     20	   1764	  13552	   34f0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+21:28:49 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:6: warning: unused variable 'y3' [-Wunused-variable]
+  172 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:6: warning: unused variable 'x3' [-Wunused-variable]
+  171 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     20	   1764	  13484	   34ac	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:28:52 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11700	     20	   1764	  13484	   34ac	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+21:35:31 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:172:6: warning: unused variable 'y3' [-Wunused-variable]
+  172 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:171:6: warning: unused variable 'x3' [-Wunused-variable]
+  171 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0)); //x0 + ((y1 - y0) / (y2 - y0)) * (x2 - x0);
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11676	     20	   1764	  13460	   3494	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:48:37 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:6: warning: unused variable 'y3' [-Wunused-variable]
+  185 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:6: warning: unused variable 'x3' [-Wunused-variable]
+  184 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11560	     20	   1764	  13344	   3420	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:50:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineInit':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:3: error: 'dx' undeclared (first use in this function)
+  143 |  *dx = ABS(*x1 - *x0);
+      |   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:3: note: each undeclared identifier is reported only once for each function it appears in
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:13: error: 'x1' undeclared (first use in this function); did you mean 'j1'?
+  143 |  *dx = ABS(*x1 - *x0);
+      |             ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:143:19: error: 'x0' undeclared (first use in this function); did you mean 'j0'?
+  143 |  *dx = ABS(*x1 - *x0);
+      |                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:144:3: error: 'sx' undeclared (first use in this function)
+  144 |  *sx = (*x0 < *x1) ? 1 : -1;
+      |   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:145:3: error: 'dy' undeclared (first use in this function)
+  145 |  *dy = -ABS(*y1 - *y0);
+      |   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:146:3: error: 'sy' undeclared (first use in this function)
+  146 |  *sy = (*y0 < *y1) ? 1 : -1;
+      |   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:3: error: 'error' undeclared (first use in this function)
+  147 |  *error = *dx + *dy;
+      |   ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:3: error: 'e2' undeclared (first use in this function)
+  148 |  *e2 = 0;
+      |   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  192 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  142 | static void lineInit(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:2: error: too many arguments to function 'lineInit'
+  192 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:13: note: declared here
+  142 | static void lineInit(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:6: warning: unused variable 'y3' [-Wunused-variable]
+  186 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:6: warning: unused variable 'x3' [-Wunused-variable]
+  185 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:51:07 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  192 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  142 | static void lineInit(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:2: error: too many arguments to function 'lineInit'
+  192 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:13: note: declared here
+  142 | static void lineInit(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:6: warning: unused variable 'y3' [-Wunused-variable]
+  186 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:6: warning: unused variable 'x3' [-Wunused-variable]
+  185 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:52:02 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:161:19: error: 'dx' undeclared (first use in this function)
+  161 |  if (line->e2 <= *dx) {
+      |                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:161:19: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:162:4: error: 'error' undeclared (first use in this function)
+  162 |   *error = *error + *dx;
+      |    ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:163:16: error: 'sy' undeclared (first use in this function)
+  163 |   *y0 = *y0 + *sy;
+      |                ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  191 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  142 | static void lineInit(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:2: error: too many arguments to function 'lineInit'
+  191 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:13: note: declared here
+  142 | static void lineInit(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:193:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  151 | static void lineStep(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:193:3: error: too many arguments to function 'lineStep'
+  193 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:13: note: declared here
+  151 | static void lineStep(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:6: warning: unused variable 'y3' [-Wunused-variable]
+  185 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:6: warning: unused variable 'x3' [-Wunused-variable]
+  184 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:52:04 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:161:19: error: 'dx' undeclared (first use in this function)
+  161 |  if (line->e2 <= *dx) {
+      |                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:161:19: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:162:4: error: 'error' undeclared (first use in this function)
+  162 |   *error = *error + *dx;
+      |    ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:163:16: error: 'sy' undeclared (first use in this function)
+  163 |   *y0 = *y0 + *sy;
+      |                ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  191 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  142 | static void lineInit(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:2: error: too many arguments to function 'lineInit'
+  191 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:13: note: declared here
+  142 | static void lineInit(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:193:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  151 | static void lineStep(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:193:3: error: too many arguments to function 'lineStep'
+  193 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:13: note: declared here
+  151 | static void lineStep(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:6: warning: unused variable 'y3' [-Wunused-variable]
+  185 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:6: warning: unused variable 'x3' [-Wunused-variable]
+  184 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:52:26 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  188 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  142 | static void lineInit(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:2: error: too many arguments to function 'lineInit'
+  188 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:13: note: declared here
+  142 | static void lineInit(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:190:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  190 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  151 | static void lineStep(lineComplex_t *line) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:190:3: error: too many arguments to function 'lineStep'
+  190 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:151:13: note: declared here
+  151 | static void lineStep(lineComplex_t *line) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:6: warning: unused variable 'y3' [-Wunused-variable]
+  182 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:181:6: warning: unused variable 'x3' [-Wunused-variable]
+  181 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:56:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineInit':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:23: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  139 |  line->dx = ABS(line->x1 - line->x0);
+      |                       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:34: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  139 |  line->dx = ABS(line->x1 - line->x0);
+      |                                  ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:23: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  139 |  line->dx = ABS(line->x1 - line->x0);
+      |                       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:44: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                            ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:34: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  139 |  line->dx = ABS(line->x1 - line->x0);
+      |                                  ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:44: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                            ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:23: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  139 |  line->dx = ABS(line->x1 - line->x0);
+      |                       ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:51: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:139:34: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  139 |  line->dx = ABS(line->x1 - line->x0);
+      |                                  ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:51: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:20: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  140 |  line->sx = (line->x0 < line->x1) ? 1 : -1;
+      |                    ^~
+      |                    x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:31: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  140 |  line->sx = (line->x0 < line->x1) ? 1 : -1;
+      |                               ^~
+      |                               x
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:24: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                        ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:35: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:24: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                        ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:44: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                            ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:35: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:44: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                            ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:24: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                        ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:51: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:35: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:51: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:20: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  142 |  line->sy = (line->y0 < line->y1) ? 1 : -1;
+      |                    ^~
+      |                    y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:31: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  142 |  line->sy = (line->y0 < line->y1) ? 1 : -1;
+      |                               ^~
+      |                               y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:18: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  148 |  line->x = line->x0;
+      |                  ^~
+      |                  x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:149:18: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  149 |  line->y = line->y0;
+      |                  ^~
+      |                  y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:9: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  153 |   line->x0 = line->x0 + line->sx;
+      |         ^~
+      |         x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:20: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  153 |   line->x0 = line->x0 + line->sx;
+      |                    ^~
+      |                    x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:9: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  157 |   line->y0 = line->y0 + line->sy;
+      |         ^~
+      |         y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:20: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  157 |   line->y0 = line->y0 + line->sy;
+      |                    ^~
+      |                    y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  185 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  186 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  187 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  188 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:189:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  189 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:190:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  190 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  191 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  192 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:2: error: too many arguments to function 'lineInit'
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:13: note: declared here
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:3: error: too many arguments to function 'lineStep'
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: note: declared here
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:16: warning: variable 'line1' set but not used [-Wunused-but-set-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:56:13 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineInit':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:20: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  140 |  line->sx = (line->x0 < line->x1) ? 1 : -1;
+      |                    ^~
+      |                    x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:140:31: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  140 |  line->sx = (line->x0 < line->x1) ? 1 : -1;
+      |                               ^~
+      |                               x
+In file included from D:/__GitHub/gfxLib/gfxLib/gfx2d.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:24: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                        ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:35: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:34: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                  ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:24: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                        ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:44: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                            ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:35: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:44: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                            ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:24: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                        ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:51: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:141:35: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  141 |  line->dy = -ABS(line->y1 - line->y0);
+      |                                   ^~
+D:/__GitHub/gfxLib/gfxLib/gfx.h:8:51: note: in definition of macro 'ABS'
+    8 | #define ABS(X)                 ((X) > 0 ? (X) : -(X))
+      |                                                   ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:20: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  142 |  line->sy = (line->y0 < line->y1) ? 1 : -1;
+      |                    ^~
+      |                    y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:142:31: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  142 |  line->sy = (line->y0 < line->y1) ? 1 : -1;
+      |                               ^~
+      |                               y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:18: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  148 |  line->x = line->x0;
+      |                  ^~
+      |                  x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:149:18: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  149 |  line->y = line->y0;
+      |                  ^~
+      |                  y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:9: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  153 |   line->x0 = line->x0 + line->sx;
+      |         ^~
+      |         x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:20: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  153 |   line->x0 = line->x0 + line->sx;
+      |                    ^~
+      |                    x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:9: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  157 |   line->y0 = line->y0 + line->sy;
+      |         ^~
+      |         y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:20: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  157 |   line->y0 = line->y0 + line->sy;
+      |                    ^~
+      |                    y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  185 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  186 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  187 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  188 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:189:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  189 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:190:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  190 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  191 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  192 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:2: error: too many arguments to function 'lineInit'
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:13: note: declared here
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:3: error: too many arguments to function 'lineStep'
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: note: declared here
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:16: warning: variable 'line1' set but not used [-Wunused-but-set-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:57:10 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineStep':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:18: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  148 |  line->x = line->x0;
+      |                  ^~
+      |                  x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:149:18: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  149 |  line->y = line->y0;
+      |                  ^~
+      |                  y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:9: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  153 |   line->x0 = line->x0 + line->sx;
+      |         ^~
+      |         x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:153:20: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  153 |   line->x0 = line->x0 + line->sx;
+      |                    ^~
+      |                    x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:9: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  157 |   line->y0 = line->y0 + line->sy;
+      |         ^~
+      |         y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:157:20: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  157 |   line->y0 = line->y0 + line->sy;
+      |                    ^~
+      |                    y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  185 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  186 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  187 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  188 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:189:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  189 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:190:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  190 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  191 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  192 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:2: error: too many arguments to function 'lineInit'
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:13: note: declared here
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:3: error: too many arguments to function 'lineStep'
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: note: declared here
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:16: warning: variable 'line1' set but not used [-Wunused-but-set-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:57:34 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  185 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  186 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  187 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  188 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:189:8: error: 'lineComplex_t' has no member named 'x0'; did you mean 'x'?
+  189 |  line1.x0 = x0;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:190:8: error: 'lineComplex_t' has no member named 'y0'; did you mean 'y'?
+  190 |  line1.y0 = y0;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:191:8: error: 'lineComplex_t' has no member named 'x1'; did you mean 'x'?
+  191 |  line1.x1 = x1;
+      |        ^~
+      |        x
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:192:8: error: 'lineComplex_t' has no member named 'y1'; did you mean 'y'?
+  192 |  line1.y1 = y1;
+      |        ^~
+      |        y
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:194:2: error: too many arguments to function 'lineInit'
+  194 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:13: note: declared here
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:196:3: error: too many arguments to function 'lineStep'
+  196 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: note: declared here
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:16: warning: variable 'line1' set but not used [-Wunused-but-set-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:57:43 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:11: warning: passing argument 1 of 'lineInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  186 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |           ^~~
+      |           |
+      |           int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:2: error: too many arguments to function 'lineInit'
+  186 |  lineInit(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x1, &y1);
+      |  ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:138:13: note: declared here
+  138 | static void lineInit(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  188 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:3: error: too many arguments to function 'lineStep'
+  188 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: note: declared here
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:16: warning: unused variable 'line1' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:57:57 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:12: warning: passing argument 1 of 'lineStep' from incompatible pointer type [-Wincompatible-pointer-types]
+  188 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |            ^~~
+      |            |
+      |            int32_t * {aka long int *}
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:37: note: expected 'lineComplex_t *' but argument is of type 'int32_t *' {aka 'long int *'}
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |                      ~~~~~~~~~~~~~~~^~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:188:3: error: too many arguments to function 'lineStep'
+  188 |   lineStep(&dx, &sx, &dy, &sy, &error, &e2, &x0, &y0, &x, &y);
+      |   ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:13: note: declared here
+  147 | static void lineStep(lineComplex_t *line, int32_t *x0, int32_t *y0, int32_t *x1, int32_t *y1) {
+      |             ^~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+21:58:10 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:33: warning: unused variable 'e2' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                                 ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:26: warning: unused variable 'error' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                          ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:22: warning: unused variable 'sy' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:18: warning: unused variable 'dy' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                  ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:14: warning: unused variable 'sx' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |              ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:10: warning: unused variable 'dx' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |          ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11548	     20	   1764	  13332	   3414	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:59:34 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:30: warning: unused variable 'line3' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:184:23: warning: unused variable 'line2' [-Wunused-variable]
+  184 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:33: warning: unused variable 'e2' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                                 ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:26: warning: unused variable 'error' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                          ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:22: warning: unused variable 'sy' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:18: warning: unused variable 'dy' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |                  ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:14: warning: unused variable 'sx' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |              ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:10: warning: unused variable 'dx' [-Wunused-variable]
+  182 |  int32_t dx, sx, dy, sy, error, e2, x, y;
+      |          ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:189:3: warning: 'x' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  189 |   drawPixel(x, y, color);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:189:3: warning: 'y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11536	     20	   1764	  13320	   3408	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+21:59:44 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:10: error: 'x' undeclared (first use in this function); did you mean 'x3'?
+  185 |  while ((x != x1) || (y != y1)) {
+      |          ^
+      |          x3
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:10: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:185:23: error: 'y' undeclared (first use in this function); did you mean 'y3'?
+  185 |  while ((x != x1) || (y != y1)) {
+      |                       ^
+      |                       y3
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:30: warning: unused variable 'line3' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:23: warning: unused variable 'line2' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:00:02 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:13: error: 'x' undeclared (first use in this function); did you mean 'x3'?
+  187 |   drawPixel(x, y, color);
+      |             ^
+      |             x3
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:13: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:187:16: error: 'y' undeclared (first use in this function); did you mean 'y3'?
+  187 |   drawPixel(x, y, color);
+      |                ^
+      |                y3
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:30: warning: unused variable 'line3' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:23: warning: unused variable 'line2' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:00:13 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:30: warning: unused variable 'line3' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:23: warning: unused variable 'line2' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                       ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11528	     20	   1764	  13312	   3400	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+22:00:18 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11528	     20	   1764	  13312	   3400	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+22:01:43 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:30: warning: unused variable 'line3' [-Wunused-variable]
+  182 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:178:6: warning: unused variable 'y3' [-Wunused-variable]
+  178 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:177:6: warning: unused variable 'x3' [-Wunused-variable]
+  177 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11588	     20	   1764	  13372	   343c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+22:01:46 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11588	     20	   1764	  13372	   343c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+22:04:27 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'lineInit':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:147:14: warning: assignment to 'int32_t' {aka 'long int'} from 'int32_t *' {aka 'long int *'} makes integer from pointer without a cast [-Wint-conversion]
+  147 |  line->xTemp = x0;
+      |              ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:148:14: warning: assignment to 'int32_t' {aka 'long int'} from 'int32_t *' {aka 'long int *'} makes integer from pointer without a cast [-Wint-conversion]
+  148 |  line->yTemp = y0;
+      |              ^
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:30: warning: unused variable 'line3' [-Wunused-variable]
+  186 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:6: warning: unused variable 'y3' [-Wunused-variable]
+  182 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:181:6: warning: unused variable 'x3' [-Wunused-variable]
+  181 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11592	     20	   1764	  13376	   3440	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+22:04:32 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11592	     20	   1764	  13376	   3440	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+22:06:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:30: warning: unused variable 'line3' [-Wunused-variable]
+  186 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:6: warning: unused variable 'y3' [-Wunused-variable]
+  182 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:181:6: warning: unused variable 'x3' [-Wunused-variable]
+  181 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11596	     20	   1764	  13380	   3444	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+22:07:48 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:30: warning: unused variable 'line3' [-Wunused-variable]
+  186 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:6: warning: unused variable 'y3' [-Wunused-variable]
+  182 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:181:6: warning: unused variable 'x3' [-Wunused-variable]
+  181 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11604	     20	   1764	  13388	   344c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+22:08:25 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillTriangle':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:186:30: warning: unused variable 'line3' [-Wunused-variable]
+  186 |  lineComplex_t line1, line2, line3;
+      |                              ^~~~~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:182:6: warning: unused variable 'y3' [-Wunused-variable]
+  182 |  int y3 = y1;
+      |      ^~
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:181:6: warning: unused variable 'x3' [-Wunused-variable]
+  181 |  int x3 = (int) (x0 + ((float) (y1 - y0) / (float) (y2 - y0)) * (x2 - x0));
+      |      ^~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  11604	     20	   1764	  13388	   344c	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
