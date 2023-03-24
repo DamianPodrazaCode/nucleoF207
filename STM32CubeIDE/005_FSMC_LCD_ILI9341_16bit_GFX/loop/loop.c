@@ -1,8 +1,10 @@
 #include "loop.h"
+#include <math.h>
 
 void bench();
 void bench2();
 void bench3();
+void bench4();
 
 __IO uint32_t time = 0;
 
@@ -18,7 +20,8 @@ void setup() {
 	time = HAL_GetTick();
 //	bench();
 //	bench2();
-	bench3();
+//	bench3();
+	bench4();
 
 // 23
 // clearScr(COLOR_BLACK);
@@ -29,6 +32,27 @@ void setup() {
 //			drawPixel(x, y, COLOR_BLUE);
 //	}
 	time = HAL_GetTick() - time;
+}
+
+typedef struct {
+	int32_t x;
+	int32_t y;
+} point2d_t;
+
+#define PI 3.14159265
+void rotateStep(int32_t *x, int32_t *y) {
+	float deg = 1;
+	*x = ((*x - 160) * cos(deg * PI / 180.0) - (*y - 120) * sin(deg * PI / 180.0)) + 160;
+	*y = ((*x - 160) * sin(deg * PI / 180.0) + (*y - 120) * cos(deg * PI / 180.0)) + 120;
+}
+
+point2d_t A = { 160, 50 }, B = { 210, 190 }, C = { 110, 190 };
+
+void bench4() {
+	gfx2d_fillTriangle(A.x, A.y, B.x, B.y, C.x, C.y, COLOR_BLUE);
+	rotateStep(&A.x, &A.y);
+	rotateStep(&B.x, &B.y);
+	rotateStep(&C.x, &C.y);
 }
 
 void bench3() {
@@ -62,11 +86,11 @@ void bench2() {
 }
 
 void loop() {
-//	clearScr(COLOR_BLUE);
-//	time = HAL_GetTick();
-//	bench();
-//	time = HAL_GetTick() - time;
-//	HAL_Delay(99);
+	clearScr(COLOR_BLACK);
+	time = HAL_GetTick();
+	bench4();
+	time = HAL_GetTick() - time;
+	//HAL_Delay(99);
 }
 
 void bench() {
