@@ -40,19 +40,25 @@ typedef struct {
 } point2d_t;
 
 #define PI 3.14159265
-void rotateStep(int32_t *x, int32_t *y) {
-	float deg = 1;
-	*x = ((*x - 160) * cos(deg * PI / 180.0) - (*y - 120) * sin(deg * PI / 180.0)) + 160;
-	*y = ((*x - 160) * sin(deg * PI / 180.0) + (*y - 120) * cos(deg * PI / 180.0)) + 120;
+void rotateStep(point2d_t *pIn, point2d_t *pOut, float deg) {
+	pOut->x = ((pIn->x - 160) * cos(deg * PI / 180.0) - (pIn->y - 120) * sin(deg * PI / 180.0)) + 160;
+	pOut->y = ((pIn->x - 160) * sin(deg * PI / 180.0) + (pIn->y - 120) * cos(deg * PI / 180.0)) + 120;
+	deg++;
 }
 
 point2d_t A = { 160, 50 }, B = { 210, 190 }, C = { 110, 190 };
+point2d_t Ap, Bp, Cp;
+float deg = 0;
 
 void bench4() {
-	gfx2d_fillTriangle(A.x, A.y, B.x, B.y, C.x, C.y, COLOR_BLUE);
-	rotateStep(&A.x, &A.y);
-	rotateStep(&B.x, &B.y);
-	rotateStep(&C.x, &C.y);
+//	gfx2d_fillTriangle(A.x, A.y, B.x, B.y, C.x, C.y, COLOR_BLUE);
+	rotateStep(&A, &Ap, deg);
+	rotateStep(&B, &Bp, deg);
+	rotateStep(&C, &Cp, deg);
+	gfx2d_triangle(Ap.x, Ap.y, Bp.x, Bp.y, Cp.x, Cp.y, COLOR_BLUE);
+	HAL_Delay(9);
+	gfx2d_triangle(Ap.x, Ap.y, Bp.x, Bp.y, Cp.x, Cp.y, COLOR_BLACK);
+	deg = deg + 1;
 }
 
 void bench3() {
@@ -86,7 +92,7 @@ void bench2() {
 }
 
 void loop() {
-	clearScr(COLOR_BLACK);
+	//clearScr(COLOR_BLACK);
 	time = HAL_GetTick();
 	bench4();
 	time = HAL_GetTick() - time;
