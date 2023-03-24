@@ -20,8 +20,8 @@ void setup() {
 	time = HAL_GetTick();
 //	bench();
 //	bench2();
-//	bench3();
-	bench4();
+	bench3(); //mój 5522 , obcy 5549
+//	bench4();
 
 // 23
 // clearScr(COLOR_BLACK);
@@ -62,7 +62,19 @@ void bench4() {
 }
 
 void bench3() {
-	gfx2d_fillTriangle(50, 80, 160, 20, 270, 200, COLOR_BLUE);
+	srand(HAL_GetTick());
+	uint32_t x0, x1, x2, y0, y1, y2, color;
+	const uint32_t iter = 2000;
+	for (int i = 0; i < iter; i++) {
+		x0 = rand() % lcdProp.width;
+		x1 = rand() % lcdProp.width;
+		x2 = rand() % lcdProp.width;
+		y0 = rand() % lcdProp.height;
+		y1 = rand() % lcdProp.height;
+		y2 = rand() % lcdProp.height;
+		color = rand() % 0xffff;
+		gfx2d_fillTriangle(x0, y0, x1, y1, x2, y2, color);
+	}
 }
 
 void bench2() {
