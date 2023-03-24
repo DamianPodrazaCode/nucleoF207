@@ -55,9 +55,9 @@ void bench4() {
 	rotateStep(&A, &Ap, deg);
 	rotateStep(&B, &Bp, deg);
 	rotateStep(&C, &Cp, deg);
-	gfx2d_triangle(Ap.x, Ap.y, Bp.x, Bp.y, Cp.x, Cp.y, COLOR_BLUE);
+	gfx2d_fillTriangle(Ap.x, Ap.y, Bp.x, Bp.y, Cp.x, Cp.y, COLOR_BLUE);
 	HAL_Delay(9);
-	gfx2d_triangle(Ap.x, Ap.y, Bp.x, Bp.y, Cp.x, Cp.y, COLOR_BLACK);
+	gfx2d_fillTriangle(Ap.x, Ap.y, Bp.x, Bp.y, Cp.x, Cp.y, COLOR_BLACK);
 	deg = deg + 1;
 }
 
