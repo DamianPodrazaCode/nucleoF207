@@ -5,11 +5,13 @@ void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg);
 void benchLine();
 void benchTriangle();
 void benchFillTriangle();
+void benchRect();
 
 #define PI 3.14159265
 __IO uint32_t time = 0;
 gfx2dPoint_t A = { 160, 50 }, B = { 210, 190 }, C = { 110, 190 };
 gfx2dPoint_t Ap, Bp, Cp;
+gfx2dSize_t Sp;
 uint32_t color;
 float deg = 0;
 const uint32_t iter = 3600;
@@ -20,9 +22,10 @@ void setup() {
 	gfx_init(lcdProp.width, lcdProp.height);
 
 	time = HAL_GetTick();
-	benchLine();
-	benchTriangle();
-	benchFillTriangle();
+//	benchLine();
+//	benchTriangle();
+//	benchFillTriangle();
+	benchRect();
 	time = HAL_GetTick() - time;
 }
 
@@ -132,3 +135,24 @@ void benchFillTriangle() {
 	clearScr(COLOR_BLACK);
 }
 
+void benchRect() {
+	srand(HAL_GetTick());
+	for (int i = 0; i < iter; i++) {
+		Ap.x = rand() % lcdProp.width / 2;
+		Ap.y = rand() % lcdProp.height / 2;
+		Sp.w = rand() % lcdProp.width / 2;
+		Sp.h = rand() % lcdProp.height / 2;
+		color = rand() % 0xffff;
+		gfx2d_rect(Ap, Sp, color);
+	}
+	clearScr(COLOR_BLACK);
+	for (int i = 0; i < iter; i++) {
+		Ap.x = rand() % lcdProp.width / 2;
+		Ap.y = rand() % lcdProp.height / 2;
+		Sp.w = rand() % lcdProp.width / 2;
+		Sp.h = rand() % lcdProp.height / 2;
+		color = rand() % 0xffff;
+		gfx2d_fillRect(Ap, Sp, color);
+	}
+	clearScr(COLOR_BLACK);
+}
