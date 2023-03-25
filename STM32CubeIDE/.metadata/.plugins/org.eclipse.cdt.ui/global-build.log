@@ -20168,3 +20168,908 @@ arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf
   23824	    144	   1808	  25776	   64b0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
 Finished building: default.size.stdout
  
+18:45:17 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:36:27: warning: unused variable 'color' [-Wunused-variable]
+   36 |  uint32_t x1, x2, y1, y2, color;
+      |                           ^~~~~
+../loop/loop.c:36:23: warning: unused variable 'y2' [-Wunused-variable]
+   36 |  uint32_t x1, x2, y1, y2, color;
+      |                       ^~
+../loop/loop.c:36:19: warning: unused variable 'y1' [-Wunused-variable]
+   36 |  uint32_t x1, x2, y1, y2, color;
+      |                   ^~
+../loop/loop.c:36:15: warning: unused variable 'x2' [-Wunused-variable]
+   36 |  uint32_t x1, x2, y1, y2, color;
+      |               ^~
+../loop/loop.c:36:11: warning: unused variable 'x1' [-Wunused-variable]
+   36 |  uint32_t x1, x2, y1, y2, color;
+      |           ^~
+../loop/loop.c: In function 'bench4':
+../loop/loop.c:71:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   71 |  rotateStep(&A, &Ap, deg);
+      |             ^~
+../loop/loop.c:28:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   28 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:72:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |  rotateStep(&B, &Bp, deg);
+      |             ^~
+../loop/loop.c:28:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   28 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:73:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |  rotateStep(&C, &Cp, deg);
+      |             ^~
+../loop/loop.c:28:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   28 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  14484	    120	   1784	  16388	   4004	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:46:32 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:43:13: error: 'x1' undeclared (first use in this function); did you mean 'j1'?
+   43 |   drawHLine(x1, x2, y1, color);
+      |             ^~
+      |             j1
+../loop/loop.c:43:13: note: each undeclared identifier is reported only once for each function it appears in
+../loop/loop.c:43:17: error: 'x2' undeclared (first use in this function)
+   43 |   drawHLine(x1, x2, y1, color);
+      |                 ^~
+../loop/loop.c:43:21: warning: passing argument 3 of 'drawHLine' makes integer from pointer without a cast [-Wint-conversion]
+   43 |   drawHLine(x1, x2, y1, color);
+      |                     ^~
+      |                     |
+      |                     double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:33:48: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   33 | void drawHLine(int32_t x1, int32_t x2, int32_t y, uint16_t color);
+      |                                        ~~~~~~~~^
+../loop/loop.c:47:6: error: lvalue required as left operand of assignment
+   47 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:48:3: error: 'y2' undeclared (first use in this function); did you mean 'yn'?
+   48 |   y2 = rand() % lcdProp.height;
+      |   ^~
+      |   yn
+../loop/loop.c:50:17: warning: passing argument 2 of 'drawVLine' makes integer from pointer without a cast [-Wint-conversion]
+   50 |   drawVLine(x1, y1, y2, color);
+      |                 ^~
+      |                 |
+      |                 double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:34:35: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   34 | void drawVLine(int32_t x, int32_t y1, int32_t y2, uint16_t color);
+      |                           ~~~~~~~~^~
+../loop/loop.c:55:6: error: lvalue required as left operand of assignment
+   55 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:58:18: error: incompatible type for argument 2 of 'gfx2d_line'
+   58 |   gfx2d_line(x1, y1, x2, y2, color);
+      |                  ^~
+      |                  |
+      |                  double (*)(double)
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:46:46: note: expected 'gfx2dPoint_t' but argument is of type 'double (*)(double)'
+   46 | void gfx2d_line(gfx2dPoint_t A, gfx2dPoint_t B, uint16_t color);
+      |                                 ~~~~~~~~~~~~~^
+../loop/loop.c:58:3: error: too many arguments to function 'gfx2d_line'
+   58 |   gfx2d_line(x1, y1, x2, y2, color);
+      |   ^~~~~~~~~~
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:46:6: note: declared here
+   46 | void gfx2d_line(gfx2dPoint_t A, gfx2dPoint_t B, uint16_t color);
+      |      ^~~~~~~~~~
+../loop/loop.c:62:6: error: lvalue required as left operand of assignment
+   62 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:64:17: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+   64 |   drawPixel(x1, y1, color);
+      |                 ^~
+      |                 |
+      |                 double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:32:35: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   32 | void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                           ~~~~~~~~^
+../loop/loop.c: In function 'bench4':
+../loop/loop.c:70:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |  rotateStep(&A, &Ap, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:71:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   71 |  rotateStep(&B, &Bp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:72:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |  rotateStep(&C, &Cp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:47:05 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:46:3: error: 'x1' undeclared (first use in this function); did you mean 'j1'?
+   46 |   x1 = rand() % lcdProp.width;
+      |   ^~
+      |   j1
+../loop/loop.c:46:3: note: each undeclared identifier is reported only once for each function it appears in
+../loop/loop.c:47:6: error: lvalue required as left operand of assignment
+   47 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:48:3: error: 'y2' undeclared (first use in this function); did you mean 'yn'?
+   48 |   y2 = rand() % lcdProp.height;
+      |   ^~
+      |   yn
+../loop/loop.c:50:17: warning: passing argument 2 of 'drawVLine' makes integer from pointer without a cast [-Wint-conversion]
+   50 |   drawVLine(x1, y1, y2, color);
+      |                 ^~
+      |                 |
+      |                 double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:34:35: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   34 | void drawVLine(int32_t x, int32_t y1, int32_t y2, uint16_t color);
+      |                           ~~~~~~~~^~
+../loop/loop.c:54:3: error: 'x2' undeclared (first use in this function)
+   54 |   x2 = rand() % lcdProp.width;
+      |   ^~
+../loop/loop.c:55:6: error: lvalue required as left operand of assignment
+   55 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:58:18: error: incompatible type for argument 2 of 'gfx2d_line'
+   58 |   gfx2d_line(x1, y1, x2, y2, color);
+      |                  ^~
+      |                  |
+      |                  double (*)(double)
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:46:46: note: expected 'gfx2dPoint_t' but argument is of type 'double (*)(double)'
+   46 | void gfx2d_line(gfx2dPoint_t A, gfx2dPoint_t B, uint16_t color);
+      |                                 ~~~~~~~~~~~~~^
+../loop/loop.c:58:3: error: too many arguments to function 'gfx2d_line'
+   58 |   gfx2d_line(x1, y1, x2, y2, color);
+      |   ^~~~~~~~~~
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:46:6: note: declared here
+   46 | void gfx2d_line(gfx2dPoint_t A, gfx2dPoint_t B, uint16_t color);
+      |      ^~~~~~~~~~
+../loop/loop.c:62:6: error: lvalue required as left operand of assignment
+   62 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:64:17: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+   64 |   drawPixel(x1, y1, color);
+      |                 ^~
+      |                 |
+      |                 double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:32:35: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   32 | void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                           ~~~~~~~~^
+../loop/loop.c: In function 'bench4':
+../loop/loop.c:70:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |  rotateStep(&A, &Ap, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:71:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   71 |  rotateStep(&B, &Bp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:72:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |  rotateStep(&C, &Cp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:47:42 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:53:3: error: 'x1' undeclared (first use in this function); did you mean 'j1'?
+   53 |   x1 = rand() % lcdProp.width;
+      |   ^~
+      |   j1
+../loop/loop.c:53:3: note: each undeclared identifier is reported only once for each function it appears in
+../loop/loop.c:54:3: error: 'x2' undeclared (first use in this function)
+   54 |   x2 = rand() % lcdProp.width;
+      |   ^~
+../loop/loop.c:55:6: error: lvalue required as left operand of assignment
+   55 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:56:3: error: 'y2' undeclared (first use in this function); did you mean 'yn'?
+   56 |   y2 = rand() % lcdProp.height;
+      |   ^~
+      |   yn
+../loop/loop.c:58:18: error: incompatible type for argument 2 of 'gfx2d_line'
+   58 |   gfx2d_line(x1, y1, x2, y2, color);
+      |                  ^~
+      |                  |
+      |                  double (*)(double)
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:46:46: note: expected 'gfx2dPoint_t' but argument is of type 'double (*)(double)'
+   46 | void gfx2d_line(gfx2dPoint_t A, gfx2dPoint_t B, uint16_t color);
+      |                                 ~~~~~~~~~~~~~^
+../loop/loop.c:58:3: error: too many arguments to function 'gfx2d_line'
+   58 |   gfx2d_line(x1, y1, x2, y2, color);
+      |   ^~~~~~~~~~
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:46:6: note: declared here
+   46 | void gfx2d_line(gfx2dPoint_t A, gfx2dPoint_t B, uint16_t color);
+      |      ^~~~~~~~~~
+../loop/loop.c:62:6: error: lvalue required as left operand of assignment
+   62 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:64:17: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+   64 |   drawPixel(x1, y1, color);
+      |                 ^~
+      |                 |
+      |                 double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:32:35: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   32 | void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                           ~~~~~~~~^
+../loop/loop.c: In function 'bench4':
+../loop/loop.c:70:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |  rotateStep(&A, &Ap, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:71:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   71 |  rotateStep(&B, &Bp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:72:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |  rotateStep(&C, &Cp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:49:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:61:3: error: 'x1' undeclared (first use in this function); did you mean 'j1'?
+   61 |   x1 = rand() % lcdProp.width;
+      |   ^~
+      |   j1
+../loop/loop.c:61:3: note: each undeclared identifier is reported only once for each function it appears in
+../loop/loop.c:62:6: error: lvalue required as left operand of assignment
+   62 |   y1 = rand() % lcdProp.height;
+      |      ^
+../loop/loop.c:64:17: warning: passing argument 2 of 'drawPixel' makes integer from pointer without a cast [-Wint-conversion]
+   64 |   drawPixel(x1, y1, color);
+      |                 ^~
+      |                 |
+      |                 double (*)(double)
+In file included from ../loop/loop.h:8,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/drvILI9341/ili9341.h:32:35: note: expected 'int32_t' {aka 'long int'} but argument is of type 'double (*)(double)'
+   32 | void drawPixel(int32_t x, int32_t y, uint16_t color);
+      |                           ~~~~~~~~^
+../loop/loop.c: In function 'bench4':
+../loop/loop.c:70:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |  rotateStep(&A, &Ap, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:71:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   71 |  rotateStep(&B, &Bp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:72:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |  rotateStep(&C, &Cp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:49:38 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'bench4':
+../loop/loop.c:70:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |  rotateStep(&A, &Ap, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:71:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   71 |  rotateStep(&B, &Bp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:72:13: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |  rotateStep(&C, &Cp, deg);
+      |             ^~
+../loop/loop.c:29:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   29 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15732	    120	   1800	  17652	   44f4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:50:00 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15732	    120	   1800	  17652	   44f4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:50:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15732	    120	   1800	  17652	   44f4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+18:51:25 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15732	    120	   1800	  17652	   44f4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:51:28 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15732	    120	   1800	  17652	   44f4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+18:52:28 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15736	    120	   1800	  17656	   44f8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:53:56 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15212	    120	   1800	  17132	   42ec	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:54:49 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15124	    120	   1800	  17044	   4294	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:56:34 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15188	    120	   1800	  17108	   42d4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+18:56:36 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15188	    120	   1800	  17108	   42d4	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:02:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15712	    120	   1800	  17632	   44e0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:03:53 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:127:1: error: expected declaration or statement at end of input
+  127 | }
+      | ^
+At top level:
+../loop/loop.c:103:6: warning: 'bench2' defined but not used [-Wunused-function]
+  103 | void bench2() {
+      |      ^~~~~~
+../loop/loop.c:85:6: warning: 'bench3' defined but not used [-Wunused-function]
+   85 | void bench3() {
+      |      ^~~~~~
+../loop/loop.c:74:6: warning: 'bench4' defined but not used [-Wunused-function]
+   74 | void bench4() {
+      |      ^~~~~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:05:09 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:68:8: error: expected expression before '{' token
+   68 |   Ap = {1,1};
+      |        ^
+../loop/loop.c:72:14: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |   rotateStep(&B, &Bp, deg);
+      |              ^~
+../loop/loop.c:30:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   30 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:05:49 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:68:3: error: called object 'Ap' is not a function or function pointer
+   68 |   Ap(160, 10);
+      |   ^~
+../loop/loop.c:12:14: note: declared here
+   12 | gfx2dPoint_t Ap, Bp, Cp;
+      |              ^~
+../loop/loop.c:69:3: error: called object 'Bp' is not a function or function pointer
+   69 |   Bp(160, 230);
+      |   ^~
+../loop/loop.c:12:18: note: declared here
+   12 | gfx2dPoint_t Ap, Bp, Cp;
+      |                  ^~
+../loop/loop.c:72:14: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |   rotateStep(&B, &Bp, deg);
+      |              ^~
+../loop/loop.c:30:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   30 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:06:11 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:69:3: error: called object 'Bp' is not a function or function pointer
+   69 |   Bp(160, 230);
+      |   ^~
+../loop/loop.c:12:18: note: declared here
+   12 | gfx2dPoint_t Ap, Bp, Cp;
+      |                  ^~
+../loop/loop.c:72:14: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |   rotateStep(&B, &Bp, deg);
+      |              ^~
+../loop/loop.c:30:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   30 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:06:29 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:72:14: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   72 |   rotateStep(&B, &Bp, deg);
+      |              ^~
+../loop/loop.c:30:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   30 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23888	    120	   1808	  25816	   64d8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:06:37 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23880	    120	   1808	  25808	   64d0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:06:42 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23880	    120	   1808	  25808	   64d0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:07:47 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchLine':
+../loop/loop.c:73:14: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   rotateStep(&A, &Ap, deg);
+      |              ^~
+../loop/loop.c:30:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   30 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+../loop/loop.c:74:14: warning: passing argument 1 of 'rotateStep' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   74 |   rotateStep(&B, &Bp, deg);
+      |              ^~
+../loop/loop.c:30:31: note: expected 'gfx2dPoint_t *' but argument is of type 'const gfx2dPoint_t *'
+   30 | void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
+      |                 ~~~~~~~~~~~~~~^~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23904	    120	   1808	  25832	   64e8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:08:11 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23888	    136	   1808	  25832	   64e8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:08:15 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23888	    136	   1808	  25832	   64e8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:09:14 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23896	    136	   1808	  25840	   64f0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:09:16 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23896	    136	   1808	  25840	   64f0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:10:08 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23896	    136	   1808	  25840	   64f0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:10:10 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23896	    136	   1808	  25840	   64f0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:10:55 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23904	    136	   1808	  25848	   64f8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:10:58 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23904	    136	   1808	  25848	   64f8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:11:42 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23904	    136	   1808	  25848	   64f8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:15:31 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23352	    144	   1816	  25312	   62e0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:15:38 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23352	    144	   1816	  25312	   62e0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:16:21 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23392	    144	   1816	  25352	   6308	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:16:47 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23392	    144	   1816	  25352	   6308	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:17:50 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23400	    144	   1816	  25360	   6310	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:18:04 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23400	    144	   1816	  25360	   6310	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:19:36 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  23848	    144	   1816	  25808	   64d0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:19:39 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23848	    144	   1816	  25808	   64d0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:20:53 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  25680	    144	   1816	  27640	   6bf8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:20:56 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25680	    144	   1816	  27640	   6bf8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+19:22:45 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  25680	    144	   1816	  27640	   6bf8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:23:55 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  25688	    144	   1816	  27648	   6c00	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+19:25:41 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  25688	    144	   1816	  27648	   6c00	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
