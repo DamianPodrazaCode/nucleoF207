@@ -23649,3 +23649,219 @@ Finished building: default.size.stdout
  
 Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
  
+14:21:55 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c: In function 'gfx2d_fillEllipse':
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:233:21: error: 'Rr' undeclared (first use in this function); did you mean 'R'?
+  233 |  int32_t x = 0, y = Rr.ry;
+      |                     ^~
+      |                     R
+D:/__GitHub/gfxLib/gfxLib/gfx2d.c:233:21: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [gfxLib/subdir.mk:24: gfxLib/gfx2d.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+14:22:02 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  14980	    120	   1800	  16900	   4204	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:24:24 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15268	    120	   1800	  17188	   4324	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:24:27 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15268	    120	   1800	  17188	   4324	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+14:32:57 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15268	    120	   1800	  17188	   4324	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:36:13 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/drvILI9341/ili9341.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drvILI9341/ili9341.d" -MT"drvILI9341/ili9341.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drvILI9341/ili9341.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15268	    120	   1800	  17188	   4324	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:36:15 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15268	    120	   1800	  17188	   4324	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+14:37:12 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/drvILI9341/ili9341.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drvILI9341/ili9341.d" -MT"drvILI9341/ili9341.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drvILI9341/ili9341.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15248	    120	   1800	  17168	   4310	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:37:23 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/drvILI9341/ili9341.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drvILI9341/ili9341.d" -MT"drvILI9341/ili9341.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drvILI9341/ili9341.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15248	    120	   1800	  17168	   4310	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:37:26 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15248	    120	   1800	  17168	   4310	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+14:37:57 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  16020	    120	   1800	  17940	   4614	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:38:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16020	    120	   1800	  17940	   4614	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+14:39:24 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  28448	    144	   1832	  30424	   76d8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:39:27 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28448	    144	   1832	  30424	   76d8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+14:40:15 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/drvILI9341/ili9341.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drvILI9341/ili9341.d" -MT"drvILI9341/ili9341.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drvILI9341/ili9341.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  28424	    144	   1832	  30400	   76c0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:41:25 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/drvILI9341/ili9341.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drvILI9341/ili9341.d" -MT"drvILI9341/ili9341.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drvILI9341/ili9341.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  28456	    144	   1832	  30432	   76e0	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:43:13 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/drvILI9341/ili9341.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"drvILI9341/ili9341.d" -MT"drvILI9341/ili9341.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "drvILI9341/ili9341.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  28464	    144	   1832	  30440	   76e8	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+14:46:30 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  28528	    144	   1832	  30504	   7728	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
