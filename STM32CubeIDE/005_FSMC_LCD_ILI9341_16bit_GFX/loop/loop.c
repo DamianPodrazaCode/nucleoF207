@@ -6,13 +6,14 @@ void benchLine();
 void benchTriangle();
 void benchFillTriangle();
 void benchRect();
+void benchCircle();
 
 #define PI 3.14159265
 __IO uint32_t time = 0;
-gfx2dPoint_t A = { 160, 50 }, B = { 210, 190 }, C = { 110, 190 };
+gfx2dPoint_t A = { 160, 50 }, B = { 410, 190 }, C = { 110, 190 };
 gfx2dPoint_t Ap, Bp, Cp;
 gfx2dSize_t Sp;
-uint32_t color;
+uint32_t color, r;
 float deg = 0;
 const uint32_t iter = 3600;
 
@@ -24,8 +25,13 @@ void setup() {
 	time = HAL_GetTick();
 //	benchLine();
 //	benchTriangle();
-//	benchFillTriangle();
-	benchRect();
+	benchFillTriangle();
+//	benchRect();
+//	benchCircle();
+//	Ap.x = 10;
+//	Ap.y = 10;
+//	gfx2d_circle(Ap, 80, COLOR_BLUE);
+
 	time = HAL_GetTick() - time;
 }
 
@@ -155,4 +161,16 @@ void benchRect() {
 		gfx2d_fillRect(Ap, Sp, color);
 	}
 	clearScr(COLOR_BLACK);
+}
+
+void benchCircle() {
+	srand(HAL_GetTick());
+	for (int i = 0; i < iter; i++) {
+		Ap.x = rand() % lcdProp.width;
+		Ap.y = rand() % lcdProp.height;
+		r = rand() % lcdProp.height;
+		color = rand() % 0xffff;
+		gfx2d_circle(Ap, r, color);
+	}
+//	clearScr(COLOR_BLACK);
 }
