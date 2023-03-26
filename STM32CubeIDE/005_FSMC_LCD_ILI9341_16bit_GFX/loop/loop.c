@@ -23,14 +23,27 @@ void setup() {
 	gfx_init(lcdProp.width, lcdProp.height);
 
 	time = HAL_GetTick();
-//	benchLine();
-//	benchTriangle();
+	benchLine();
+	benchTriangle();
 	benchFillTriangle();
-//	benchRect();
-//	benchCircle();
+	benchRect();
+	benchCircle();
+
 //	Ap.x = 10;
 //	Ap.y = 10;
 //	gfx2d_circle(Ap, 80, COLOR_BLUE);
+
+//	Ap.x = -10;
+//	Ap.y = 100;
+//	Bp.x = 200;
+//	Bp.y = -100;
+//	gfx2d_line(Ap, Bp, COLOR_BLUE);
+//
+//	Ap.x = 200;
+//	Ap.y = 300;
+//	Bp.x = 400;
+//	Bp.y = 100;
+//	gfx2d_line(Ap, Bp, COLOR_RED);
 
 	time = HAL_GetTick() - time;
 }
