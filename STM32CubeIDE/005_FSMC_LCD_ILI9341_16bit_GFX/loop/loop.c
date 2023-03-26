@@ -7,6 +7,7 @@ void benchTriangle();
 void benchFillTriangle();
 void benchRect();
 void benchCircle();
+void benchEllipse();
 
 #define PI 3.14159265
 __IO uint32_t time = 0;
@@ -23,11 +24,12 @@ void setup() {
 	gfx_init(lcdProp.width, lcdProp.height);
 
 	time = HAL_GetTick();
-	benchLine();
-	benchTriangle();
-	benchFillTriangle();
-	benchRect();
+//	benchLine();
+//	benchTriangle();
+//	benchFillTriangle();
+//	benchRect();
 	benchCircle();
+//	benchEllipse();
 
 //	Ap.x = 10;
 //	Ap.y = 10;
@@ -178,12 +180,36 @@ void benchRect() {
 
 void benchCircle() {
 	srand(HAL_GetTick());
+//	for (int i = 0; i < iter; i++) {
+//		Ap.x = rand() % lcdProp.width;
+//		Ap.y = rand() % lcdProp.height;
+//		r = rand() % lcdProp.height;
+//		color = rand() % 0xffff;
+//		gfx2d_circle(Ap, r, color);
+//	}
+	clearScr(COLOR_BLACK);
 	for (int i = 0; i < iter; i++) {
 		Ap.x = rand() % lcdProp.width;
 		Ap.y = rand() % lcdProp.height;
-		r = rand() % lcdProp.height;
+		r = rand() % lcdProp.height / 2;
 		color = rand() % 0xffff;
-		gfx2d_circle(Ap, r, color);
+		gfx2d_fillCircle(Ap, r, color);
+		//HAL_Delay(100);
 	}
-//	clearScr(COLOR_BLACK);
+	//clearScr(COLOR_BLACK);
+
+}
+
+void benchEllipse() {
+	srand(HAL_GetTick());
+	for (int i = 0; i < iter; i++) {
+		Ap.x = rand() % lcdProp.width;
+		Ap.y = rand() % lcdProp.height;
+		Sp.w = rand() % lcdProp.width;
+		Sp.h = rand() % lcdProp.height;
+		color = rand() % 0xffff;
+		gfx2d_ellipse(Ap, Sp, color);
+	}
+	clearScr(COLOR_BLACK);
+
 }
