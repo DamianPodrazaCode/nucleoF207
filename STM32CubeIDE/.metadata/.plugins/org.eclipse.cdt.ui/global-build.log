@@ -25503,3 +25503,1663 @@ Finished building: default.size.stdout
  
 Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
  
+20:17:27 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_create':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:9:1: warning: control reaches end of non-void function [-Wreturn-type]
+    9 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+   12 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+   21 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:17:45 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_create':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:10:9: error: expected expression before 'node_t'
+   10 |  return node_t;
+      |         ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+   11 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+   20 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+   26 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:18:33 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+   20 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+   26 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:19:18 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+   14 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+   20 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+   26 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:19:28 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+   18 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+   21 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:21:45 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:15:20: error: 'head' undeclared (first use in this function)
+   15 |  node_t *current = head;
+      |                    ^~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:15:20: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:22:15: error: 'struct node' has no member named 'val'
+   22 |  current->next->val = val;
+      |               ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:22:23: error: 'val' undeclared (first use in this function)
+   22 |  current->next->val = val;
+      |                       ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:22:01 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:23:52 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:24:03 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:22:15: error: 'struct node' has no member named 'val'
+   22 |  current->next->val = val;
+      |               ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:22:23: error: 'val' undeclared (first use in this function)
+   22 |  current->next->val = val;
+      |                       ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:22:23: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:24:36 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:22:24: error: incompatible types when assigning to type 'dataLinkedList_t' from type 'dataLinkedList_t *'
+   22 |  current->next->data = data;
+      |                        ^~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:24:53 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+   27 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+   33 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+   36 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:25:31 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:5: error: expected '(' before 'current'
+   20 |  if current->next == NULL) {
+      |     ^~~~~~~
+      |     (
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:12: warning: statement with no effect [-Wunused-value]
+   20 |  if current->next == NULL) {
+      |     ~~~~~~~^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   20 |  if current->next == NULL) {
+      |  ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   20 |  if current->next == NULL) {
+      |                          ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:20:26: error: expected statement before ')' token
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+   34 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+   37 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+   40 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+   43 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:25:36 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+   34 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+   37 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+   40 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+   43 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:26:58 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:32:13: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   32 |     new_node->val = val;
+      |             ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:32:21: error: 'val' undeclared (first use in this function)
+   32 |     new_node->val = val;
+      |                     ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:32:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:22: error: incompatible types when assigning to type 'struct node *' from type 'node_t' {aka 'struct node'}
+   33 |     new_node->next = *head;
+      |                      ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:34:13: error: incompatible types when assigning to type 'node_t' {aka 'struct node'} from type 'node_t *' {aka 'struct node *'}
+   34 |     *head = new_node;
+      |             ^~~~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+   44 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:27:09 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:33:22: error: incompatible types when assigning to type 'struct node *' from type 'node_t' {aka 'struct node'}
+   33 |     new_node->next = *head;
+      |                      ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:34:13: error: incompatible types when assigning to type 'node_t' {aka 'struct node'} from type 'node_t *' {aka 'struct node *'}
+   34 |     *head = new_node;
+      |             ^~~~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+   44 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:27:38 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+   44 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:28:16 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_pushStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:37:20: error: expected ';' before '}' token
+   37 |     return new_node
+      |                    ^
+      |                    ;
+   38 | }
+      | ~                   
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+   44 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:28:18 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+   44 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:30:04 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:54:12: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   54 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+   58 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+   61 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:64:1: warning: control reaches end of non-void function [-Wreturn-type]
+   64 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+   67 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:30:25 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popStart':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:52:12: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   52 |     return 1;
+      |            ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+   59 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+   65 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:30:40 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+   59 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+   65 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:31:57 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_popEnd':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:16: error: 'retval' undeclared (first use in this function)
+   44 |         return retval;
+      |                ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:44:16: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:52:27: error: 'struct node' has no member named 'val'
+   52 |     retval = current->next->val;
+      |                           ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:74:1: warning: control reaches end of non-void function [-Wreturn-type]
+   74 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+   77 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+   80 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:32:54 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+   70 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+   73 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+   76 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:1: warning: control reaches end of non-void function [-Wreturn-type]
+   79 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:33:57 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:76:24: error: incompatible types when initializing type 'node_t *' {aka 'struct node *'} using type 'node_t' {aka 'struct node'}
+   76 |     node_t * current = *head;
+      |                        ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:78:9: error: 'n' undeclared (first use in this function)
+   78 |     if (n == 0) {
+      |         ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:78:9: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: implicit declaration of function 'pop' [-Wimplicit-function-declaration]
+   79 |         return pop(head);
+      |                ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   79 |         return pop(head);
+      |                ^~~~~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:84:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   84 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:34:19 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:78:9: error: 'n' undeclared (first use in this function)
+   78 |     if (n == 0) {
+      |         ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:78:9: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: implicit declaration of function 'pop' [-Wimplicit-function-declaration]
+   79 |         return pop(head);
+      |                ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   79 |         return pop(head);
+      |                ^~~~~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:84:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   84 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:34:35 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:78:9: error: 'n' undeclared (first use in this function)
+   78 |     if (n == 0) {
+      |         ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:78:9: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: implicit declaration of function 'pop' [-Wimplicit-function-declaration]
+   79 |         return pop(head);
+      |                ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   79 |         return pop(head);
+      |                ^~~~~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:84:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   84 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:34:48 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: implicit declaration of function 'pop' [-Wimplicit-function-declaration]
+   79 |         return pop(head);
+      |                ^~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:79:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   79 |         return pop(head);
+      |                ^~~~~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:82:21: error: 'n' undeclared (first use in this function)
+   82 |     for (i = 0; i < n-1; i++) {
+      |                     ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:82:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:84:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   84 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:35:56 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:80:16: warning: passing argument 1 of 'LL_popEnd' from incompatible pointer type [-Wincompatible-pointer-types]
+   80 |      LL_popEnd(head, &data);
+      |                ^~~~
+      |                |
+      |                node_t ** {aka struct node **}
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:40:27: note: expected 'node_t *' {aka 'struct node *'} but argument is of type 'node_t **' {aka 'struct node **'}
+   40 | node_t* LL_popEnd(node_t *head, dataLinkedList_t *data) {
+      |                   ~~~~~~~~^~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:81:17: error: invalid type argument of unary '*' (have 'dataLinkedList_t')
+   81 |         return  *data
+      |                 ^~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:81:22: error: expected ';' before '}' token
+   81 |         return  *data
+      |                      ^
+      |                      ;
+   82 |     }
+      |     ~                 
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:83:21: error: 'n' undeclared (first use in this function)
+   83 |     for (i = 0; i < n-1; i++) {
+      |                     ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:83:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:85:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   85 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:91:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   91 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:95:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   95 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:99:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   99 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:36:01 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:80:16: warning: passing argument 1 of 'LL_popEnd' from incompatible pointer type [-Wincompatible-pointer-types]
+   80 |      LL_popEnd(head, &data);
+      |                ^~~~
+      |                |
+      |                node_t ** {aka struct node **}
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:40:27: note: expected 'node_t *' {aka 'struct node *'} but argument is of type 'node_t **' {aka 'struct node **'}
+   40 | node_t* LL_popEnd(node_t *head, dataLinkedList_t *data) {
+      |                   ~~~~~~~~^~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:81:17: error: invalid type argument of unary '*' (have 'dataLinkedList_t')
+   81 |         return  *data;
+      |                 ^~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:83:21: error: 'n' undeclared (first use in this function)
+   83 |     for (i = 0; i < n-1; i++) {
+      |                     ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:83:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:85:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   85 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:91:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   91 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:95:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   95 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:99:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   99 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:36:21 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:81:17: error: invalid type argument of unary '*' (have 'dataLinkedList_t')
+   81 |         return  *data;
+      |                 ^~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:83:21: error: 'n' undeclared (first use in this function)
+   83 |     for (i = 0; i < n-1; i++) {
+      |                     ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:83:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:85:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   85 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:91:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   91 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:95:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   95 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:99:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   99 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:37:13 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:82:21: error: 'n' undeclared (first use in this function)
+   82 |     for (i = 0; i < n-1; i++) {
+      |                     ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:82:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:84:20: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   84 |             return -1;
+      |                    ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:16: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |         return -1;
+      |                ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:23: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |     retval = temp_node->val;
+      |                       ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:12: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |     return retval;
+      |            ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:37:25 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:84:11: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   84 |    return -1;
+      |           ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:10: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |   return -1;
+      |          ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:20: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |  retval = temp_node->val;
+      |                    ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:9: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |  return retval;
+      |         ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:38:39 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:90:10: warning: returning 'int' from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   90 |   return -1;
+      |          ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:94:20: error: 'node_t' {aka 'struct node'} has no member named 'val'
+   94 |  retval = temp_node->val;
+      |                    ^~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:98:9: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   98 |  return retval;
+      |         ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+  102 | }
+      | ^
+make: *** [LinkedListC/subdir.mk:19: LinkedListC/linkedList.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:39:16 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:97:9: warning: returning 'uint32_t' {aka 'long unsigned int'} from a function with return type 'node_t *' {aka 'struct node *'} makes pointer from integer without a cast [-Wint-conversion]
+   97 |  return retval;
+      |         ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:39:40 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:75:11: warning: unused variable 'retval' [-Wunused-variable]
+   75 |  uint32_t retval = -1;
+      |           ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_size':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+  101 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:39:55 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_removeByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:75:11: warning: unused variable 'retval' [-Wunused-variable]
+   75 |  uint32_t retval = -1;
+      |           ^~~~~~
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:40:14 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_readByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+D:/__GitHub/extraLib/LinkedListC/linkedList.c: In function 'LL_replaceByIndex':
+D:/__GitHub/extraLib/LinkedListC/linkedList.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:40:33 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "D:/__GitHub/extraLib/LinkedListC/linkedList.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"LinkedListC/linkedList.d" -MT"LinkedListC/linkedList.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "LinkedListC/linkedList.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9548	     20	   1764	  11332	   2c44	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:42:22 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+   9564	     20	   1764	  11348	   2c54	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:47:19 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchPolygon':
+../loop/loop.c:271:15: warning: variable 'points' set but not used [-Wunused-but-set-variable]
+  271 |  gfx2dPoint_t points[pointsCount];
+      |               ^~~~~~
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  14800	    120	   1784	  16704	   4140	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:48:09 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'benchPolygon':
+../loop/loop.c:278:16: error: expected expression before 'gfx2dPoint_t'
+  278 |  gfx2d_polygon(gfx2dPoint_t *pPoint,  pointCount,  color)
+      |                ^~~~~~~~~~~~
+../loop/loop.c:278:2: error: too few arguments to function 'gfx2d_polygon'
+  278 |  gfx2d_polygon(gfx2dPoint_t *pPoint,  pointCount,  color)
+      |  ^~~~~~~~~~~~~
+In file included from ../loop/loop.h:9,
+                 from ../loop/loop.c:1:
+D:/__GitHub/gfxLib/gfxLib/gfx.h:72:6: note: declared here
+   72 | void gfx2d_polygon(gfx2dPoint_t *pPoint, uint32_t pointCount, uint16_t color);
+      |      ^~~~~~~~~~~~~
+../loop/loop.c:278:58: error: expected ';' before '}' token
+  278 |  gfx2d_polygon(gfx2dPoint_t *pPoint,  pointCount,  color)
+      |                                                          ^
+      |                                                          ;
+  279 | }
+      | ~                                                         
+../loop/loop.c:271:15: warning: variable 'points' set but not used [-Wunused-but-set-variable]
+  271 |  gfx2dPoint_t points[pointCount];
+      |               ^~~~~~
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:48:29 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  14884	    120	   1784	  16788	   4194	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:52:14 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc "D:/__GitHub/gfxLib/gfxLib/gfx2d.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"gfxLib/gfx2d.d" -MT"gfxLib/gfx2d.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "gfxLib/gfx2d.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15272	    120	   1784	  17176	   4318	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:52:17 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15272	    120	   1784	  17176	   4318	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+20:52:41 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15256	    120	   1784	  17160	   4308	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:55:02 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c:269:51: error: expected declaration specifiers or '...' before ')' token
+  269 | static inline bool checkCrossLine(gfx2dPoint_t A, )
+      |                                                   ^
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:57:40 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'checkCrossLine':
+../loop/loop.c:270:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  270 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15256	    120	   1784	  17160	   4308	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:57:48 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'checkCrossLine':
+../loop/loop.c:270:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  270 | }
+      | ^
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15256	    120	   1784	  17160	   4308	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 
+20:57:56 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+../loop/loop.c: In function 'checkCrossLine':
+../loop/loop.c:270:2: error: 'returnr' undeclared (first use in this function)
+  270 |  returnr false;
+      |  ^~~~~~~
+../loop/loop.c:270:2: note: each undeclared identifier is reported only once for each function it appears in
+../loop/loop.c:270:9: error: expected ';' before numeric constant
+  270 |  returnr false;
+      |         ^
+      |         ;
+../loop/loop.c:271:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  271 | }
+      | ^
+make: *** [loop/subdir.mk:22: loop/loop.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:57:59 **** Incremental Build of configuration Debug for project 005_FSMC_LCD_ILI9341_16bit_GFX ****
+make -j12 all 
+arm-none-eabi-gcc "../loop/loop.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F207xx -c -I../Core/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Device/ST/STM32F2xx/Include -ID:/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/CMSIS/Include -I"D:/__GitHub/gfxLib/drvILI9341" -I"D:/__GitHub/gfxLib/gfxLib" -I"D:/__GitHub/extraLib/LinkedListC" -I"D:/__GitHub/nucleoF207/STM32CubeIDE/005_FSMC_LCD_ILI9341_16bit_GFX/loop" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"loop/loop.d" -MT"loop/loop.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "loop/loop.o"
+arm-none-eabi-gcc -o "005_FSMC_LCD_ILI9341_16bit_GFX.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\__GitHub\nucleoF207\STM32CubeIDE\005_FSMC_LCD_ILI9341_16bit_GFX\STM32F207ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005_FSMC_LCD_ILI9341_16bit_GFX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005_FSMC_LCD_ILI9341_16bit_GFX.elf
+ 
+arm-none-eabi-size   005_FSMC_LCD_ILI9341_16bit_GFX.elf 
+arm-none-eabi-objdump -h -S  005_FSMC_LCD_ILI9341_16bit_GFX.elf  > "005_FSMC_LCD_ILI9341_16bit_GFX.list"
+   text	   data	    bss	    dec	    hex	filename
+  15256	    120	   1784	  17160	   4308	005_FSMC_LCD_ILI9341_16bit_GFX.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005_FSMC_LCD_ILI9341_16bit_GFX.list
+ 

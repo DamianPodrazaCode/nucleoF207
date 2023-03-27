@@ -9,6 +9,7 @@ void benchRect();
 void benchCircle();
 void benchEllipse();
 void benchRoundRect();
+void benchPolygon();
 
 #define PI 3.14159265
 __IO uint32_t time = 0;
@@ -33,6 +34,7 @@ void setup() {
 //	benchCircle();
 //	benchEllipse();
 //	benchRoundRect();
+	benchPolygon();
 
 //	Ap.x = 50;
 //	Ap.y = 50;
@@ -262,4 +264,22 @@ void benchRoundRect() {
 		gfx2d_fillRoundRect(Ap, Sp, 1 + r, color);
 	}
 	clearScr(COLOR_BLACK);
+}
+
+static inline bool checkCrossLine(gfx2dPoint_t P, gfx2dPoint_t R, gfx2dPoint_t Pp, gfx2dPoint_t Rp) {
+	return false;
+}
+
+void benchPolygon() {
+	const uint32_t pointCount = 10;
+	gfx2dPoint_t points[pointCount];
+	srand(HAL_GetTick());
+	for (int i = 0; i < pointCount; i++) {
+		points[i].x = rand() % lcdProp.width;
+		points[i].y = rand() % lcdProp.height;
+		// sprawdzenie czy linie się przecinają
+	}
+	// sprawdzenie czy ostatnia linia się przecina
+	color = rand() % 0xffff;
+	gfx2d_polygon(points, pointCount, color);
 }
