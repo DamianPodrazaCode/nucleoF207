@@ -26,13 +26,13 @@ void setup() {
 	gfx_init(lcdProp.width, lcdProp.height);
 
 	time = HAL_GetTick();
-	benchLine();
-	benchTriangle();
-	benchFillTriangle();
-	benchRect();
-	benchCircle();
-	benchEllipse();
-	benchRoundRect();
+//	benchLine();
+//	benchTriangle();
+//	benchFillTriangle();
+//	benchRect();
+//	benchCircle();
+//	benchEllipse();
+//	benchRoundRect();
 
 //	Ap.x = 50;
 //	Ap.y = 50;
