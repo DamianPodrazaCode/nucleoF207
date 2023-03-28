@@ -315,23 +315,23 @@ void benchPolygon() {
 		i++;
 		points[i].x = rand() % lcdProp.width;
 		points[i].y = rand() % lcdProp.height;
-		gfx2d_line(points[i - 1], points[i], COLOR_BLUE);
+//		gfx2d_line(points[i - 1], points[i], COLOR_BLUE);
 
 		while (i < pointCount - 1) {
 			i++;
 			points[i].x = rand() % lcdProp.width;
 			points[i].y = rand() % lcdProp.height;
-			if (i == 2)
-				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
+//			if (i == 2)
+//				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
 			if (i > 2) {
 				for (int j = 2; j < i; j++) {
 					if (checkCrossLine(points[i - 1], points[i], points[i - j], points[i - j - 1]))
 						i--;
 				}
-				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
+//				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
 			}
 		}
-		gfx2d_line(points[0], points[i], COLOR_RED);
+//		gfx2d_line(points[0], points[i], COLOR_RED);
 
 		error = false;
 		for (int j = 1; j < i - 1; j++) { // sprawdzanie bez pierwszej i ostatniej
@@ -341,6 +341,6 @@ void benchPolygon() {
 
 	} while (error);
 
-//	color = rand() % 0xffff;
-//	gfx2d_polygon(points, pointCount, color);
+	color = rand() % 0xffff;
+	gfx2d_polygon(points, pointCount, color);
 }
