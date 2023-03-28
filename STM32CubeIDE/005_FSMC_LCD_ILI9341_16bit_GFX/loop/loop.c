@@ -266,20 +266,81 @@ void benchRoundRect() {
 	clearScr(COLOR_BLACK);
 }
 
-static inline bool checkCrossLine(gfx2dPoint_t P, gfx2dPoint_t R, gfx2dPoint_t Pp, gfx2dPoint_t Rp) {
+static inline bool pointOnSegment(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
+	return (MIN(X.x, Y.x) <= Z.x) && (Z.x <= MAX(X.x, Y.x)) && (MIN(X.y, Y.y) <= Z.y) && (Z.y <= MAX(X.y, Y.y));
+}
+
+// wyznacznik
+static inline int32_t crossProdukt(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
+	int32_t x1 = Z.x - X.x;
+	int32_t y1 = Z.y - X.y;
+	int32_t x2 = Y.x - X.x;
+	int32_t y2 = Y.y - X.y;
+	return (x1 * y2) - (x2 * y1);
+}
+// sprawdzanie czy się przecinają linie bez punktu końcowego
+static inline bool checkCrossLine(gfx2dPoint_t A, gfx2dPoint_t B, gfx2dPoint_t C, gfx2dPoint_t D) {
+	int32_t v1 = crossProdukt(C, D, A);
+	int32_t v2 = crossProdukt(C, D, B);
+	int32_t v3 = crossProdukt(A, B, C);
+	int32_t v4 = crossProdukt(A, B, D);
+
+	if (((v1 > 0 && v2 < 0) || (v1 < 0 && v2 > 0)) && ((v3 > 0 && v4 < 0) || (v3 < 0 && v4 > 0)))
+		return true;
+
+	if (v1 == 0 && pointOnSegment(C, D, A))
+		return true;
+	if (v2 == 0 && pointOnSegment(C, D, B))
+		return true;
+	if (v3 == 0 && pointOnSegment(A, B, C))
+		return true;
+	if (v4 == 0 && pointOnSegment(A, B, D))
+		return true;
+
 	return false;
 }
 
 void benchPolygon() {
 	const uint32_t pointCount = 10;
 	gfx2dPoint_t points[pointCount];
-	srand(HAL_GetTick());
-	for (int i = 0; i < pointCount; i++) {
+
+	bool error = false;
+	do {
+		clearScr(COLOR_BLACK);
+		int i = 0;
+		srand(HAL_GetTick());
+
 		points[i].x = rand() % lcdProp.width;
 		points[i].y = rand() % lcdProp.height;
-		// sprawdzenie czy linie się przecinają
-	}
-	// sprawdzenie czy ostatnia linia się przecina
-	color = rand() % 0xffff;
-	gfx2d_polygon(points, pointCount, color);
+		i++;
+		points[i].x = rand() % lcdProp.width;
+		points[i].y = rand() % lcdProp.height;
+		gfx2d_line(points[i - 1], points[i], COLOR_BLUE);
+
+		while (i < pointCount - 1) {
+			i++;
+			points[i].x = rand() % lcdProp.width;
+			points[i].y = rand() % lcdProp.height;
+			if (i == 2)
+				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
+			if (i > 2) {
+				for (int j = 2; j < i; j++) {
+					if (checkCrossLine(points[i - 1], points[i], points[i - j], points[i - j - 1]))
+						i--;
+				}
+				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
+			}
+		}
+		gfx2d_line(points[0], points[i], COLOR_RED);
+
+		error = false;
+		for (int j = 1; j < i - 1; j++) { // sprawdzanie bez pierwszej i ostatniej
+			if (checkCrossLine(points[0], points[i], points[j], points[j + 1]))
+				error = true;
+		}
+
+	} while (error);
+
+//	color = rand() % 0xffff;
+//	gfx2d_polygon(points, pointCount, color);
 }
