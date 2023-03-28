@@ -34,7 +34,10 @@ void setup() {
 //	benchCircle();
 //	benchEllipse();
 //	benchRoundRect();
-	benchPolygon();
+	for (int i = 0; i < 10; i++){
+		benchPolygon();
+		HAL_Delay(1000);
+	}
 
 //	Ap.x = 50;
 //	Ap.y = 50;
@@ -278,16 +281,18 @@ static inline int32_t crossProdukt(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t 
 	int32_t y2 = Y.y - X.y;
 	return (x1 * y2) - (x2 * y1);
 }
-// sprawdzanie czy się przecinają linie bez punktu końcowego
+// sprawdzanie czy się przecinają linie
 static inline bool checkCrossLine(gfx2dPoint_t A, gfx2dPoint_t B, gfx2dPoint_t C, gfx2dPoint_t D) {
 	int32_t v1 = crossProdukt(C, D, A);
 	int32_t v2 = crossProdukt(C, D, B);
 	int32_t v3 = crossProdukt(A, B, C);
 	int32_t v4 = crossProdukt(A, B, D);
 
+	// przecinanie linii
 	if (((v1 > 0 && v2 < 0) || (v1 < 0 && v2 > 0)) && ((v3 > 0 && v4 < 0) || (v3 < 0 && v4 > 0)))
 		return true;
 
+	// przecinanie końca z linialmi
 	if (v1 == 0 && pointOnSegment(C, D, A))
 		return true;
 	if (v2 == 0 && pointOnSegment(C, D, B))
@@ -312,18 +317,18 @@ void benchPolygon() {
 
 		points[i].x = rand() % lcdProp.width;
 		points[i].y = rand() % lcdProp.height;
-		points[i].color = COLOR_BLUE;//rand() % 0xffff;
+		points[i].color = COLOR_BLUE; //rand() % 0xffff;
 		i++;
 		points[i].x = rand() % lcdProp.width;
 		points[i].y = rand() % lcdProp.height;
-		points[i].color = rand() % 0xffff;
+		points[i].color = COLOR_GREEN; //rand() % 0xffff;
 //		gfx2d_line(points[i - 1], points[i], COLOR_BLUE);
 
 		while (i < pointCount - 1) {
 			i++;
 			points[i].x = rand() % lcdProp.width;
 			points[i].y = rand() % lcdProp.height;
-			points[i].color = rand() % 0xffff;
+			points[i].color = COLOR_GREEN; //rand() % 0xffff;
 //			if (i == 2)
 //				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
 			if (i > 2) {
