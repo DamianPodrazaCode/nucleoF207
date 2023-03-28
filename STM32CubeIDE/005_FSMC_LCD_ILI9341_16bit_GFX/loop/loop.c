@@ -34,7 +34,7 @@ void setup() {
 //	benchCircle();
 //	benchEllipse();
 //	benchRoundRect();
-	for (int i = 0; i < 10; i++){
+	for (int i = 0; i < 10; i++) {
 		benchPolygon();
 		HAL_Delay(1000);
 	}
@@ -273,7 +273,6 @@ static inline bool pointOnSegment(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z
 	return (MIN(X.x, Y.x) <= Z.x) && (Z.x <= MAX(X.x, Y.x)) && (MIN(X.y, Y.y) <= Z.y) && (Z.y <= MAX(X.y, Y.y));
 }
 
-// wyznacznik
 static inline int32_t crossProdukt(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
 	int32_t x1 = Z.x - X.x;
 	int32_t y1 = Z.y - X.y;
