@@ -312,15 +312,18 @@ void benchPolygon() {
 
 		points[i].x = rand() % lcdProp.width;
 		points[i].y = rand() % lcdProp.height;
+		points[i].color = COLOR_BLUE;//rand() % 0xffff;
 		i++;
 		points[i].x = rand() % lcdProp.width;
 		points[i].y = rand() % lcdProp.height;
+		points[i].color = rand() % 0xffff;
 //		gfx2d_line(points[i - 1], points[i], COLOR_BLUE);
 
 		while (i < pointCount - 1) {
 			i++;
 			points[i].x = rand() % lcdProp.width;
 			points[i].y = rand() % lcdProp.height;
+			points[i].color = rand() % 0xffff;
 //			if (i == 2)
 //				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
 			if (i > 2) {
@@ -342,5 +345,5 @@ void benchPolygon() {
 	} while (error);
 
 	color = rand() % 0xffff;
-	gfx2d_polygon(points, pointCount, color);
+	gfx2d_polygon(points, pointCount, COLOR_RED);
 }
