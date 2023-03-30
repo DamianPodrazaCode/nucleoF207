@@ -1,4 +1,4 @@
-#include "ili9341Port.h"
+#include "../Inc/ili9341Port.h"
 
 #define ADDR_CMD (0x60000000) //LCD_RS=0
 #define ADDR_RAM (0x60020000) //LCD_RS=1, LINIA A16 przy 16bit

@@ -1,5 +1,5 @@
-#ifndef ILI9341PORT_H_
-#define ILI9341PORT_H_
+#ifndef ILI9341PORT_HPP_
+#define ILI9341PORT_HPP_
 
 #include "main.h"
 #include "fsmc.h"
@@ -18,4 +18,4 @@ void lcdRstHI();
 void lcdRstLOW();
 void lcdDelayMs(uint32_t ms);
 
-#endif /* ILI9341PORT_H_ */
+#endif /* ILI9341PORT_HPP_ */

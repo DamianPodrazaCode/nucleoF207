@@ -1,4 +1,5 @@
-#include "loop.h"
+#include "../Inc/loop.h"
+
 #include <math.h>
 
 void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg);
@@ -17,17 +18,20 @@ gfx2dPoint_t A = { 160, 50 }, B = { 410, 190 }, C = { 110, 190 };
 gfx2dPoint_t Ap, Bp, Cp;
 gfx2dSize_t Sp;
 gfx2dRadius_t Rp;
-uint32_t color, r;
+uint32_t color;
+int r;
 float deg = 0;
-const uint32_t iter = 3600;
+const int iter = 3600;
+
 
 void setup() {
+
 	drv_init(lcdOrientLandscape_90);
-	clearScr(COLOR_BLACK);
+	clearScr(COLOR_BLUE);
 	gfx_init(lcdProp.width, lcdProp.height);
 
 	time = HAL_GetTick();
-//	benchLine();
+	benchLine();
 //	benchTriangle();
 //	benchFillTriangle();
 //	benchRect();
@@ -311,7 +315,7 @@ void benchPolygon() {
 	bool error = false;
 	do {
 		clearScr(COLOR_BLACK);
-		int i = 0;
+		uint32_t i = 0;
 		srand(HAL_GetTick());
 
 		points[i].x = rand() % lcdProp.width;
@@ -331,7 +335,7 @@ void benchPolygon() {
 //			if (i == 2)
 //				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
 			if (i > 2) {
-				for (int j = 2; j < i; j++) {
+				for (uint32_t j = 2; j < i; j++) {
 					if (checkCrossLine(points[i - 1], points[i], points[i - j], points[i - j - 1]))
 						i--;
 				}
@@ -341,7 +345,7 @@ void benchPolygon() {
 //		gfx2d_line(points[0], points[i], COLOR_RED);
 
 		error = false;
-		for (int j = 1; j < i - 1; j++) { // sprawdzanie bez pierwszej i ostatniej
+		for (uint32_t j = 1; j < i - 1; j++) { // sprawdzanie bez pierwszej i ostatniej
 			if (checkCrossLine(points[0], points[i], points[j], points[j + 1]))
 				error = true;
 		}
