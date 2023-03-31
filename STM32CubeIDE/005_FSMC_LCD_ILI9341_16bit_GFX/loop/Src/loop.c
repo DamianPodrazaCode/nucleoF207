@@ -10,7 +10,6 @@ void benchRect();
 void benchCircle();
 void benchEllipse();
 void benchRoundRect();
-void benchPolygon();
 
 #define PI 3.14159265
 __IO uint32_t time = 0;
@@ -32,45 +31,12 @@ void setup() {
 
 	time = HAL_GetTick();
 	benchLine();
-//	benchTriangle();
-//	benchFillTriangle();
-//	benchRect();
-//	benchCircle();
-//	benchEllipse();
-//	benchRoundRect();
-	for (int i = 0; i < 10; i++) {
-		benchPolygon();
-		HAL_Delay(1000);
-	}
-
-//	Ap.x = 50;
-//	Ap.y = 50;
-//	Sp.w = 100;
-//	Sp.h = 149;
-//	gfx2d_fillRoundRect(Ap, Sp, 20, COLOR_BLUE);
-
-//	Ap.x = 50;
-//	Ap.y = 50;
-//	Sp.w = 100;
-//	Sp.h = 150;
-//	gfx2d_roundRect(Ap, Sp, 20, COLOR_BLUE);
-
-//	Ap.x = 10;
-//	Ap.y = 10;
-//	gfx2d_circle(Ap, 80, COLOR_BLUE);
-
-//	Ap.x = -10;
-//	Ap.y = 100;
-//	Bp.x = 200;
-//	Bp.y = -100;
-//	gfx2d_line(Ap, Bp, COLOR_BLUE);
-//
-//	Ap.x = 200;
-//	Ap.y = 300;
-//	Bp.x = 400;
-//	Bp.y = 100;
-//	gfx2d_line(Ap, Bp, COLOR_RED);
-
+	benchTriangle();
+	benchFillTriangle();
+	benchRect();
+	benchCircle();
+	benchEllipse();
+	benchRoundRect();
 	time = HAL_GetTick() - time;
 }
 
@@ -147,7 +113,6 @@ void benchTriangle() {
 		rotateStep(&B, &Bp, deg);
 		rotateStep(&C, &Cp, deg);
 		gfx2d_triangle(Ap, Bp, Cp, color);
-		//HAL_Delay(2);
 		gfx2d_triangle(Ap, Bp, Cp, COLOR_BLACK);
 		deg = deg + 1;
 	}
@@ -273,85 +238,37 @@ void benchRoundRect() {
 	clearScr(COLOR_BLACK);
 }
 
-static inline bool pointOnSegment(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
-	return (MIN(X.x, Y.x) <= Z.x) && (Z.x <= MAX(X.x, Y.x)) && (MIN(X.y, Y.y) <= Z.y) && (Z.y <= MAX(X.y, Y.y));
-}
-
-static inline int32_t crossProdukt(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
-	int32_t x1 = Z.x - X.x;
-	int32_t y1 = Z.y - X.y;
-	int32_t x2 = Y.x - X.x;
-	int32_t y2 = Y.y - X.y;
-	return (x1 * y2) - (x2 * y1);
-}
-// sprawdzanie czy się przecinają linie
-static inline bool checkCrossLine(gfx2dPoint_t A, gfx2dPoint_t B, gfx2dPoint_t C, gfx2dPoint_t D) {
-	int32_t v1 = crossProdukt(C, D, A);
-	int32_t v2 = crossProdukt(C, D, B);
-	int32_t v3 = crossProdukt(A, B, C);
-	int32_t v4 = crossProdukt(A, B, D);
-
-	// przecinanie linii
-	if (((v1 > 0 && v2 < 0) || (v1 < 0 && v2 > 0)) && ((v3 > 0 && v4 < 0) || (v3 < 0 && v4 > 0)))
-		return true;
-
-	// przecinanie końca z linialmi
-	if (v1 == 0 && pointOnSegment(C, D, A))
-		return true;
-	if (v2 == 0 && pointOnSegment(C, D, B))
-		return true;
-	if (v3 == 0 && pointOnSegment(A, B, C))
-		return true;
-	if (v4 == 0 && pointOnSegment(A, B, D))
-		return true;
-
-	return false;
-}
-
-void benchPolygon() {
-	const uint32_t pointCount = 10;
-	gfx2dPoint_t points[pointCount];
-
-	bool error = false;
-	do {
-		clearScr(COLOR_BLACK);
-		uint32_t i = 0;
-		srand(HAL_GetTick());
-
-		points[i].x = rand() % lcdProp.width;
-		points[i].y = rand() % lcdProp.height;
-		points[i].color = COLOR_BLUE; //rand() % 0xffff;
-		i++;
-		points[i].x = rand() % lcdProp.width;
-		points[i].y = rand() % lcdProp.height;
-		points[i].color = COLOR_GREEN; //rand() % 0xffff;
-//		gfx2d_line(points[i - 1], points[i], COLOR_BLUE);
-
-		while (i < pointCount - 1) {
-			i++;
-			points[i].x = rand() % lcdProp.width;
-			points[i].y = rand() % lcdProp.height;
-			points[i].color = COLOR_GREEN; //rand() % 0xffff;
-//			if (i == 2)
-//				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
-			if (i > 2) {
-				for (uint32_t j = 2; j < i; j++) {
-					if (checkCrossLine(points[i - 1], points[i], points[i - j], points[i - j - 1]))
-						i--;
-				}
-//				gfx2d_line(points[i - 1], points[i], COLOR_CYAN);
-			}
-		}
-//		gfx2d_line(points[0], points[i], COLOR_RED);
-
-		error = false;
-		for (uint32_t j = 1; j < i - 1; j++) { // sprawdzanie bez pierwszej i ostatniej
-			if (checkCrossLine(points[0], points[i], points[j], points[j + 1]))
-				error = true;
-		}
-
-	} while (error);
-
-	color = rand() % 0xffff;
-	gfx2d_polygon(points, pointCount, COLOR_RED);
-}
+//static inline bool pointOnSegment(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
+//	return (MIN(X.x, Y.x) <= Z.x) && (Z.x <= MAX(X.x, Y.x)) && (MIN(X.y, Y.y) <= Z.y) && (Z.y <= MAX(X.y, Y.y));
+//}
+//
+//static inline int32_t crossProdukt(gfx2dPoint_t X, gfx2dPoint_t Y, gfx2dPoint_t Z) {
+//	int32_t x1 = Z.x - X.x;
+//	int32_t y1 = Z.y - X.y;
+//	int32_t x2 = Y.x - X.x;
+//	int32_t y2 = Y.y - X.y;
+//	return (x1 * y2) - (x2 * y1);
+//}
+//// sprawdzanie czy się przecinają linie
+//static inline bool checkCrossLine(gfx2dPoint_t A, gfx2dPoint_t B, gfx2dPoint_t C, gfx2dPoint_t D) {
+//	int32_t v1 = crossProdukt(C, D, A);
+//	int32_t v2 = crossProdukt(C, D, B);
+//	int32_t v3 = crossProdukt(A, B, C);
+//	int32_t v4 = crossProdukt(A, B, D);
+//
+//	// przecinanie linii
+//	if (((v1 > 0 && v2 < 0) || (v1 < 0 && v2 > 0)) && ((v3 > 0 && v4 < 0) || (v3 < 0 && v4 > 0)))
+//		return true;
+//
+//	// przecinanie końca z linialmi
+//	if (v1 == 0 && pointOnSegment(C, D, A))
+//		return true;
+//	if (v2 == 0 && pointOnSegment(C, D, B))
+//		return true;
+//	if (v3 == 0 && pointOnSegment(A, B, C))
+//		return true;
+//	if (v4 == 0 && pointOnSegment(A, B, D))
+//		return true;
+//
+//	return false;
+//}
