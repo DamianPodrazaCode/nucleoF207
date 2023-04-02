@@ -31,16 +31,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>drvILI9341</name>
-			<type>2</type>
-			<location>D:/__GitHub/gfxLib/drvILI9341</location>
-		</link>
-		<link>
-			<name>gfxLib</name>
-			<type>2</type>
-			<location>D:/__GitHub/gfxLib/gfxLib</location>
-		</link>
-		<link>
 			<name>Drivers/STM32F2xx_HAL_Driver/stm32f2xx_hal.c</name>
 			<type>1</type>
 			<locationURI>PARENT-4-PROJECT_LOC/050_STM32/Repository/STM32Cube_FW_F2_V1.9.3/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.c</locationURI>
