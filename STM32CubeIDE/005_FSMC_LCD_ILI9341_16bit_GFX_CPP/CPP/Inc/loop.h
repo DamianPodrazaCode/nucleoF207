@@ -1,7 +1,6 @@
-#ifndef INC_LOOP_HPP_
-#define INC_LOOP_HPP_
+#ifndef INC_LOOP_H_
+#define INC_LOOP_H_
 
 #include "main.h"
-#include "ili9341.h"
 
-#endif /* INC_LOOP_HPP_ */
+#endif /* INC_LOOP_H_ */

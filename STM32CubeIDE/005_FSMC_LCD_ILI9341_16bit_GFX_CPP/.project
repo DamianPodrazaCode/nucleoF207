@@ -3,6 +3,7 @@
 	<name>005_FSMC_LCD_ILI9341_16bit_GFX_CPP</name>
 	<comment></comment>
 	<projects>
+		<project>005_FSMC_LCD_ILI9341_16bit_GFX_CPP</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -35,6 +36,11 @@
 			<name>drvILI9341</name>
 			<type>2</type>
 			<location>D:/__GitHub/gfxLib/drvILI9341</location>
+		</link>
+		<link>
+			<name>fsmc</name>
+			<type>2</type>
+			<location>D:/__GitHub/gfxLib/hwSTM32/fsmc</location>
 		</link>
 		<link>
 			<name>Drivers/STM32F2xx_HAL_Driver/stm32f2xx_hal.c</name>
