@@ -58,6 +58,18 @@ void loop();
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LCD_RS_DC_Pin GPIO_PIN_11
+#define LCD_RS_DC_GPIO_Port GPIOD
+#define LCD_RD_Pin GPIO_PIN_4
+#define LCD_RD_GPIO_Port GPIOD
+#define LCD_WR_Pin GPIO_PIN_5
+#define LCD_WR_GPIO_Port GPIOD
+#define LCD_CS_Pin GPIO_PIN_7
+#define LCD_CS_GPIO_Port GPIOD
+#define LCD_BL_Pin GPIO_PIN_0
+#define LCD_BL_GPIO_Port GPIOE
+#define LCD_RST_Pin GPIO_PIN_1
+#define LCD_RST_GPIO_Port GPIOE
 
 /* USER CODE BEGIN Private defines */
 
