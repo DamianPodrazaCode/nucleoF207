@@ -40,6 +40,13 @@ void setup() {
 }
 
 void loop() {
+	benchLine();
+	benchTriangle();
+	benchFillTriangle();
+	benchRect();
+	benchCircle();
+	benchEllipse();
+	benchRoundRect();
 }
 
 void rotateStep(gfx2dPoint_t *pIn, gfx2dPoint_t *pOut, float deg) {
@@ -168,6 +175,7 @@ void benchCircle() {
 }
 
 void benchEllipse() {
+
 	srand(HAL_GetTick());
 	for (int i = 0; i < iter; i++) {
 		Ap.x = rand() % scr.scrWidth;
@@ -175,6 +183,7 @@ void benchEllipse() {
 		Rp.rx = rand() % scr.scrWidth;
 		Rp.ry = rand() % scr.scrHeight;
 		color = rand() % 0xffff;
+		//scr.clr(COLOR_BLACK);
 		scr.ellipse_2d(Ap, Rp, color);
 	}
 	scr.clr(COLOR_BLACK);
