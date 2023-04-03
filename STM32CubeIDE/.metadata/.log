@@ -12992,3 +12992,66 @@ C Model Exception: C Model Status [Element loop.cpp does not exist.]
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2023-04-03 22:51:01.189
 !MESSAGE Element loop.cpp does not exist.
+
+!ENTRY org.eclipse.core.resources 4 372 2023-04-03 22:55:31.659
+!MESSAGE Project '005_FSMC_LCD_ILI9341_16bit_GFX_CPP' is not open.
+!STACK 0
+java.lang.Exception: Project '005_FSMC_LCD_ILI9341_16bit_GFX_CPP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:459)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getReferencedProjectSet(AbstractCLaunchDelegate2.java:116)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getReferencedProjectSet(AbstractCLaunchDelegate2.java:119)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getBuildOrder(AbstractCLaunchDelegate2.java:145)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:244)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:371)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:211)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:767)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 372 2023-04-03 22:56:42.748
+!MESSAGE Project '005_FSMC_LCD_ILI9341_16bit_GFX_CPP' is not open.
+!STACK 0
+java.lang.Exception: Project '005_FSMC_LCD_ILI9341_16bit_GFX_CPP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:459)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getReferencedProjectSet(AbstractCLaunchDelegate2.java:116)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getReferencedProjectSet(AbstractCLaunchDelegate2.java:119)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getBuildOrder(AbstractCLaunchDelegate2.java:145)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:244)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:371)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:211)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:767)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 372 2023-04-03 22:57:31.761
+!MESSAGE Project '005_FSMC_LCD_ILI9341_16bit_GFX_CPP' is not open.
+!STACK 0
+java.lang.Exception: Project '005_FSMC_LCD_ILI9341_16bit_GFX_CPP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:459)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getReferencedProjectSet(AbstractCLaunchDelegate2.java:116)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getReferencedProjectSet(AbstractCLaunchDelegate2.java:119)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getBuildOrder(AbstractCLaunchDelegate2.java:145)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:244)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:197)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:371)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:211)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:767)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

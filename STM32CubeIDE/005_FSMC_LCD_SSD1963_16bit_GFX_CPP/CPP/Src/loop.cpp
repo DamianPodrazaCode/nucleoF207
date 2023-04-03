@@ -1,5 +1,6 @@
 #include "loop.h"
 //#include "gfx.h"
+#include "hwPort.h"
 #include <math.h>
 
 //Gfx scr;
@@ -24,7 +25,10 @@
 //float deg = 0;
 //const int iter = 3600;
 
+HwPort hw;
+
 void setup() {
+	hw.lcdBlOff();
 //	scr.init(scrOrientLandscape_90);
 //
 //	time = HAL_GetTick();
