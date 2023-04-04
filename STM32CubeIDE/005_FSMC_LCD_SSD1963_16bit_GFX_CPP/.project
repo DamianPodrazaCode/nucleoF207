@@ -33,6 +33,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>drvSSD1963</name>
+			<type>2</type>
+			<location>D:/__GitHub/gfxLib/drvSSD1963</location>
+		</link>
+		<link>
 			<name>fsmc</name>
 			<type>2</type>
 			<location>D:/__GitHub/gfxLib/hwSTM32/fsmc</location>
