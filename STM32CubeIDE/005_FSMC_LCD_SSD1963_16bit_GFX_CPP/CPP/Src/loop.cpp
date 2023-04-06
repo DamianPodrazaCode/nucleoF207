@@ -1,6 +1,7 @@
 #include "loop.h"
 //#include "gfx.h"
-#include "hwPort.h"
+//#include "hwPort.h"
+#include "drvSSD1963.h"
 #include <math.h>
 
 //Gfx scr;
@@ -25,10 +26,18 @@
 //float deg = 0;
 //const int iter = 3600;
 
-HwPort hw;
+ScrDrv scr;
 
 void setup() {
-	hw.lcdBlOff();
+//	scr.drvInit(scrOrientPortrait_0);
+	scr.drvInit(scrOrientLandscape_90);
+//	scr.drvInit(scrOrientLandscape_90);
+//	scr.drvInit(scrOrientLandscape_90);
+
+	for (uint16_t i = 10; i < 50; i++ ){
+		scr.drawPixel(i, i*3, COLOR_WHITE);
+	}
+
 //	scr.init(scrOrientLandscape_90);
 //
 //	time = HAL_GetTick();
