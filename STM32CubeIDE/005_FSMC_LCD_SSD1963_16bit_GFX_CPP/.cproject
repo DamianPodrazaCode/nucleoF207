@@ -71,6 +71,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/005_FSMC_LCD_SSD1963_16bit_GFX_CPP/CPP/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/005_FSMC_LCD_SSD1963_16bit_GFX_CPP/Core/Inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/005_FSMC_LCD_SSD1963_16bit_GFX_CPP/drvSSD1963/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/005_FSMC_LCD_SSD1963_16bit_GFX_CPP/gfxLib/Inc}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.322202447" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
@@ -98,6 +99,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drvSSD1963"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="fsmc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="gfxLib"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
