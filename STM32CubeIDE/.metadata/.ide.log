@@ -10,3 +10,12 @@
 2023-04-06 17:30:59,451 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] INFO: [HttpServer] Started.
 2023-04-06 17:30:59,451 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
 2023-04-06 23:46:56,182 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-04-07 13:46:15,534 [INFO] Activator:177 - 
+
+
+2023-04-07 13:46:15,549 [INFO] Activator:178 - !SESSION log4j initialized
+2023-04-07 13:46:16,428 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1516096243 uses a null category that is invalid in its context. The option was ignored.
+2023-04-07 13:46:16,679 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.debug.option.cpuclock.1178781774 uses a null category that is invalid in its context. The option was ignored.
+2023-04-07 13:46:58,887 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-07 13:46:58,891 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-07 13:46:58,891 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
